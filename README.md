@@ -2,10 +2,10 @@ OOP Project
 
 -application title
 -author :
-  *id: ---
-  *name: first last
--technology: [pygame/streamlit]
+  *id: 66114540443
+  *name: Pudcharapon Yindeeram
+-technology: [streamlit]
 -application description:
 
-presentation: [slide/canva/etc...] link [public/ubu]
+presentation: [canva] link [public/ubu]
 video: link [public/ubu]
