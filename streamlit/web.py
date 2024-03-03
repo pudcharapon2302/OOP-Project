@@ -129,7 +129,7 @@ if st.sidebar.button("Division"):
             - **จำนวนครั้งที่ได้แชมป์ Division** - <span style='color:white;'>22 (1972-1976, 1980-1982, 1984-1988, 1991, 1992, 2005, 2008-2012, 2017)</span>
             - **จำนวนเบอร์เสื้อที่ทำการเกษียณ** - <span style='color:white;'>23 (00, 1, 2, 3, 5, 6, 10, 14, 15, 16, 17, 18, 19, 21, 22, 23, 24, 25, 31, 32, 33, 34, 35)</span>
             """, unsafe_allow_html=True)
-
+        st.markdown("[official website](https://www.nba.com/celtics/)")
         st.markdown("[ประวัติเต็มๆ](https://www.blockdit.com/posts/5f93175a5c8bc80cc8558642)")
 
 
@@ -164,10 +164,40 @@ if st.sidebar.button("Division"):
             - **จำนวนเบอร์เสื้อที่ทำการเกษียณ** - <span style='color:white;'>6 (3, 5, 23, 25, 32, 52)</span>
             """, unsafe_allow_html=True)
         
+        
+        st.markdown("[official website](https://www.nba.com/nets)")
         st.markdown("[ประวัติเต็มๆ](https://www.blockdit.com/posts/5f99ac5e374f920ccb3c1122)")
+
+
 
         st.markdown("<h2 style='color: #006BB6;'>New York Knicks</h2>", unsafe_allow_html=True)
         st.markdown("<p style='color: white;'>นิวยอร์ก นิกส์</p>", unsafe_allow_html=True)
+
+        #New York Knicks png
+        NewYorkKnicks_png = "https://t1.blockdit.com/photos/2021/04/606efa177acd3b23d47e030a.png"
+        st.image(NewYorkKnicks_png, caption='NewYorkKnicks Logo', width=100, use_column_width=True)
+
+        #New York Knicks main
+        st.markdown("<p style='color: white;'>นิวยอร์ก นิกส์ เป็นทีมบาสเกตบอลในลีกเอ็นบีเอ ในเมืองนิวยอร์ก รัฐนิวยอร์ก เล่นอยู่ในดิวิชั่นแอตแลนติกในคอนเฟอเรนส์ตะวันออก เดิมทีเล่นอยู่ในลีกบีเอเอ กระทั่งมีการรวมลีกจึงย้ายมาเล่นในเอ็นบีเอ นิวยอร์ก นิกส์ เป็นเพียงสองทีมในปัจจุบันที่ยังคงเล่นอยู่ในเมืองเดิมตั้งแต่ก่อตั้งทีม (อีกทีมคือ บอสตัน เซลติกส์)</p>", unsafe_allow_html=True)
+        st.markdown("""
+            - **สังกัดในฝั่งตะวันออก** - <span style='color:white;'>Atlantic Division</span>
+            - **ปีที่ก่อตั้ง** - <span style='color:white;'>1946</span>
+            - **ชื่อเดิม** - <span style='color:white;'>New York Knicks (1946-ปัจจุบัน)</span>
+            - **สถานที่ตั้ง** - <span style='color:white;'>เมือง New York City, รัฐ New York</span>
+            - **ชื่อสนามเหย้า** - <span style='color:white;'>Madison Square Garden</span>
+            - **เจ้าของทีม** - <span style='color:white;'>Madison Square Garden Sports</span>
+            - **CEO** - <span style='color:white;'>James L. Dolan</span>
+            - **GM (ผู้จัดการทั่วไป)** - <span style='color:white;'>Scott Perry</span>
+            - **HC (โค้ชหลัก)** - <span style='color:white;'>Tom Thibodeau</span>
+            - **ทีมสังกัดใน G-League** - <span style='color:white;'>Westchester Knicks</span>
+            - **จำนวนครั้งที่ได้แชมป์ลีก** - <span style='color:white;'>2 (1970, 1973)</span>
+            - **จำนวนครั้งที่ได้แชมป์ฝั่งทวีป** - <span style='color:white;'>4 (1972-1974, 1999)</span>
+            - **จำนวนครั้งที่ได้แชมป์ Division** - <span style='color:white;'>8 (1953, 1954, 1970, 1971, 1989, 1993, 1994, 2013)</span>
+            - **จำนวนเบอร์เสื้อที่ทำการเกษียณ** - <span style='color:white;'>9 (10, 12, 15 (สองสิทธิ์), 19, 22, 24, 33, 613)</span>
+            """, unsafe_allow_html=True)
+
+        st.markdown("[official website](https://www.nba.com/knicks/)")
+        st.markdown("[ประวัติเต็มๆ](https://www.blockdit.com/posts/606efb167acd3b23d47e518a)")
 
         st.markdown("<h2 style='color: #ED174C;'>Philadelphia 76ers</h2>", unsafe_allow_html=True)
         st.markdown("<p style='color: white;'>ฟิลาเดลเฟีย เซเวนตีซิกเซอร์ส</p>", unsafe_allow_html=True)
