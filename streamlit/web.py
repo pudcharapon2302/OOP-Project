@@ -469,7 +469,7 @@ if st.sidebar.button('SOUTHEAST'):
     st.markdown("[ประวัติเต็มๆ](https://www.blockdit.com/posts/5f910d229b6ebe27e2b5d8b7?id=5f910d229b6ebe27e2b5d8b7&series=5f97ea813ea0500c89ca96cd)")
 
     #Charlotte Hornets ชาล็อต ฮอร์เน็ตส์
-    st.markdown("<font color='red'><h2>Charlotte Hornets</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='light blue'><h2>Charlotte Hornets</h2></font>", unsafe_allow_html=True)
     st.markdown("<font color='white '><p>ชาล็อต ฮอร์เน็ตส์</p></font>", unsafe_allow_html=True)
 
     #Charlotte Hornets png
@@ -533,7 +533,7 @@ if st.sidebar.button('SOUTHEAST'):
 
 
     #Orlando Magic ออร์แลนโด แมจิก
-    st.markdown("<font color='red'><h2>Orlando Magic</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='blue'><h2>Orlando Magic</h2></font>", unsafe_allow_html=True)
     st.markdown("<font color='white '><p>ออร์แลนโด แมจิก</p></font>", unsafe_allow_html=True)
     
     #Orlando Magic png
@@ -565,7 +565,7 @@ if st.sidebar.button('SOUTHEAST'):
 
 
     #Washington Wizards วอชิงตัน วิซาร์ดส์
-    st.markdown("<font color='red'><h2>Washington Wizards</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='blue'><h2>Washington Wizards</h2></font>", unsafe_allow_html=True)
     st.markdown("<font color='white '><p>วอชิงตัน วิซาร์ดส์</p></font>", unsafe_allow_html=True)
 
     #Washington Wizards png
