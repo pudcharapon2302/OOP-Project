@@ -10,6 +10,7 @@ OOP Project
 
 ## application description: 
 รายละเอียดโครงงาน
+ทำเกี่ยวกับบาสเกตบอล และ NBA ทีมต่างใน NBA
 
 ## presentation: [canva] link [public/ubu] 
 
