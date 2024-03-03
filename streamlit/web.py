@@ -436,3 +436,161 @@ if st.sidebar.button('SOUTHEAST'):
       
     # Division SOUTHEAST
     st.markdown("<h1 style='color: red; text-shadow: 2px 2px white;'>Division SOUTHEAST</h1>", unsafe_allow_html=True)
+
+    #Atlanta Hawks แอตแลนตา ฮอกส์
+    st.markdown("<font color='red'><h2>Atlanta Hawks</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='white '><p>แอตแลนตา ฮอกส์</p></font>", unsafe_allow_html=True)
+
+    #Atlanta Hawks png
+    Atlanta_Hawks_png = "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/Atlanta_Hawks_logo.svg/1024px-Atlanta_Hawks_logo.svg.png"
+    st.image(Atlanta_Hawks_png, caption='Atlanta Hawks Logo', width=100, use_column_width=True)
+
+    #Atlanta Hawks main
+    st.markdown("<p style='color: white;'>เดิมทีทีมแอตแลนตา ฮอกส์ ไม่ได้ตั้งอยู่ที่ แอตแลนต้า ทีมนี้ถูกก่อตั้งในปี ค.ศ. 1946 ภายในเขตเมือง 3 เมืองติดกัน(ไทร-ซิตี้)ของเมือง ดาเวนพอร์ท (รัฐไอโอวา) และเมืองโมลีนกับเมืองร็อคไอส์แลนด์ (รัฐอิลลินอยส์) โดยใช้ชื่อว่า ไทร-ซิตี้ แบลคฮอกส์ ก่อนที่จะย้ายไปเมืองมิลวอกี ใน ค.ศ. 1951 โดยเปลี่ยนชื่อจาก แบล็คฮอกส์ ไปเป็น ฮอกส์ และก็ย้ายไปอยู่ที่ เซนต์หลุยส์ ในปี ค.ศ. 1955 ก่อนจะย้ายไปอยู่ที่เมือง แอตแลนต้า ในปัจจุบันตั้งแต่ปี ค.ศ. 1968-ปัจจุบัน</p>", unsafe_allow_html=True)
+    st.markdown("""
+        - **สังกัดในฝั่งตะวันออก** - <span style='color:white;'>Southeast Division</span>
+        - **ปีก่อตั้ง** - <span style='color:white;'>1946</span>
+        - **ชื่อเดิม** - <span style='color:white;'>Buffalo Bisons (1946)<br>Tri-Cities Blackhawks (1946-1951)<br>Milwaukee Hawks (1951-1955)<br>St.Louis Hawks (1955-1968)</span>
+        - **สถานที่ตั้ง** - <span style='color:white;'>เมือง Atlanta รัฐ Georgia</span>
+        - **ชื่อสนามเหย้า** - <span style='color:white;'>State Farm Arena</span>
+        - **เจ้าของทีม** - <span style='color:white;'>Tony Ressler</span>
+        - **CEO** - <span style='color:white;'>Steve Koonin</span>
+        - **GM (ผู้จัดการทั่วไป)** - <span style='color:white;'>Travis Schlenk</span>
+        - **HC (โค้ชหลัก)** - <span style='color:white;'>Lloyd Pierce</span>
+        - **ทีมสังกัดใน G-League** - <span style='color:white;'>College Park Skyhawks</span>
+        - **จำนวนครั้งที่ได้แชมป์ลีก** - <span style='color:white;'>1 (1958)</span>
+        - **จำนวนครั้งที่ได้แชมป์ฝั่งทวีป** - <span style='color:white;'>4 (1957, 1958, 1960, 1961)</span>
+        - **จำนวนครั้งที่ได้แชมป์ Division** - <span style='color:white;'>5 (1970, 1980, 1987, 1994, 2015)</span>
+        - **จำนวนเบอร์เสื้อที่ทำการ Retired** - <span style='color:white;'>6 (9, 21, 23, 44, 55, 59)</span>
+        """, unsafe_allow_html=True)
+    
+    #Atlanta Hawks link
+    st.markdown("[official website](https://www.nba.com/hawks/)")
+    st.markdown("[ประวัติเต็มๆ](https://www.blockdit.com/posts/5f910d229b6ebe27e2b5d8b7?id=5f910d229b6ebe27e2b5d8b7&series=5f97ea813ea0500c89ca96cd)")
+
+    #Charlotte Hornets ชาล็อต ฮอร์เน็ตส์
+    st.markdown("<font color='red'><h2>Charlotte Hornets</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='white '><p>ชาล็อต ฮอร์เน็ตส์</p></font>", unsafe_allow_html=True)
+
+    #Charlotte Hornets png
+    Charlotte_Hornets_png = "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Charlotte_Hornets_%282014%29.svg/1024px-Charlotte_Hornets_%282014%29.svg.png"
+    st.image(Charlotte_Hornets_png, caption='Charlotte Hornets Logo', width=100, use_column_width=True)
+
+    #Charlotte Hornets main
+    st.markdown("<p style='color: white;'>เมื่อทีมชาล็อตฮอร์เนตส์ย้ายไปที่เมืองนิวออลีนส์ เมืองชาล็อตและลีกเอ็นบีเอตกลงที่จะสร้างทีมใหม่ในชาล็อตในฤดูกาล 2004-05 มีหลายกลุ่มรวมทั้งอดีตนักกีฬาชื่อดังจากทีมบอสตัน เซลติกส์ ลาร์รี เบิร์ด ก็เข้าเสนอตัว สุดท้ายกลุ่มที่นำโดยเศรษฐีพันล้าน โรเบิร์ต แอล จอห์นสัน จากธุรกิจเคเบิลทีวีสถานี BET (Black Entertainment TV) ก็ได้ชัยชนะ ชื่อบ็อบแคทส์ก็มาจาก จอห์นสัน เพราะ บ็อบ เป็นชื่อเล่นของโรเบิร์ตเอ็นบีเอจัดให้บ็อบแคทส์คัดตัวผู้เล่นจากทีมอื่น ๆ หรือที่เรียกกันว่า expansion draft เมื่อ 22 มิถุนายน ค.ศ. 2004 (พ.ศ. 2547) ได้ผู้เล่นอายุน้อยที่มีพรสวรรค์เช่น เจอรัล วอลเลส (Gerald Wallace) และยังได้ดราฟผู้เล่น เอเมกา โอกาฟอร์ (Emeka Okafor) ซึ่งได้รางวัลผู้เล่นหน้าใหม่ยอดเยี่ยมแห่งปีเมื่อหมดฤดูกาลแรกเกมแรกที่แข่งของทีม ผลปรากฏว่าแพ้วอชิงตัน วิซารดส์ ด้วยคะแนน 96 ต่อ 103 ในวันที่ 4 พฤศจิกายน ค.ศ. 2004 บ็อบแคทส์ชนะครั้งแรกในประวัติศาสตร์ของแฟรนไชส์ด้วยคะแนน 111 ต่อ 100 กับทีมออร์แลนโดแมจิกส่วนปี ค.ศ. 2005 ได้ดราฟ เรย์มอน เฟลตัน (Raymond Felton) ฌอน เมย์ (Sean May) บ็อบแคทส์ตั้งความหวังกับผู้เล่นเหล่านี้ รวมไปถึงโอกาฟอร์ ว่าจะเป็นรากฐานของความสำเร็จในอนาคต</p>", unsafe_allow_html=True)
+    st.markdown("""
+        - **สังกัดในฝั่งตะวันออก** - <span style='color:white;'>Southeast Division</span>
+        - **ปีก่อตั้ง** - <span style='color:white;'>1988</span>
+        - **ชื่อเดิม** - <span style='color:white;'>Charlotte Hornets (1988-2002 และ 2014-ปัจจุบัน)<br>Charlotte Bobcats (2004-2014)</span>
+        - **สถานที่ตั้ง** - <span style='color:white;'>เมือง Charlotte รัฐ North Carolina</span>
+        - **ชื่อสนามเหย้า** - <span style='color:white;'>Spectrum Center</span>
+        - **เจ้าของทีม** - <span style='color:white;'>Michael Jordan</span>
+        - **CEO** - <span style='color:white;'>Mitch Kupchak</span>
+        - **GM (ผู้จัดการทั่วไป)** - <span style='color:white;'>Mitch Kupchak</span>
+        - **HC (โค้ชหลัก)** - <span style='color:white;'>James Borrego</span>
+        - **ทีมสังกัดใน G-League** - <span style='color:white;'>Greensboro Swarm</span>
+        - **จำนวนครั้งที่ได้แชมป์ลีก** - <span style='color:white;'>0</span>
+        - **จำนวนครั้งที่ได้แชมป์ฝั่งทวีป** - <span style='color:white;'>0</span>
+        - **จำนวนครั้งที่ได้แชมป์ Division** - <span style='color:white;'>0</span>
+        - **จำนวนเบอร์เสื้อที่ทำการ Retired** - <span style='color:white;'>1 (13)</span>
+        """, unsafe_allow_html=True)
+    
+    #Charlotte Hornets link
+    st.markdown("[official website](https://www.nba.com/hornets/)")
+    st.markdown("[ประวัติเต็มๆ](https://www.blockdit.com/posts/5fa5650cb4bdac09901ee8b0?id=5fa5650cb4bdac09901ee8b0&series=5f97ea813ea0500c89ca96cd)")
+
+
+    #Miami Heat ไมอามี ฮีท
+    st.markdown("<font color='red'><h2>Miami Heat</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='white '><p>ไมอามี ฮีท</p></font>", unsafe_allow_html=True)
+
+    #Miami Heat png
+    Miami_Heat_png = "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Miami_Heat_logo.svg/800px-Miami_Heat_logo.svg.png"
+    st.image(Miami_Heat_png, caption='Miami Heat Logo', width=100, use_column_width=True)
+
+    #Miami Heat main
+    st.markdown("<p style='color: white;'>ไมอามี่เป็นอเมริกันทีมบาสเกตบอลมืออาชีพที่อยู่ในไมอามี่ ฟลอริด้า ทีมนี้เป็นสมาชิกของกองตะวันออกเฉียงใต้ในการประชุมภาคตะวันออกของสมาคมบาสเกตบอลแห่งชาติ (NBA) พวกเขาเล่นเกมในบ้านของพวกเขาที่อเมริกันแอร์ไลน์อารีน่าในเมืองไมอามี เจ้าของทีมคือมิกกี้ Arison ที่ยังเป็นเจ้าของยักษ์ล่องเรือเรือCarnival คอร์ปอเรชั่น ประธานทีมและพฤตินัยผู้จัดการทั่วไปเป็นแพทไรลีย์และหัวหน้าโค้ชเป็นErik Spoelstra มิ่งขวัญของทีมเป็นเบอร์นีเป็นลูกไฟมนุษย์ที่เกิดขึ้นในปี 1988 เป็นหนึ่งในสี่ของเอ็นบีเอแฟรนไชส์การขยายตัวของความร้อนที่ได้รับรางวัลสามประชันลีก (ใน2006, 2012และ2013) ห้าชื่อการประชุมและ 11 ชื่อส่วน จาก 3 กุมภาพันธ์ – 27 มีนาคม 2013, ความร้อนได้รับรางวัล 27 เกมในแถวแนวที่สองที่ยาวที่สุดในประวัติศาสตร์เอ็นบีเอ (หลัง1971-1972 Los Angeles Lakers ‘ชนะ 33) ในปี 2013 ฟอร์บมูลค่าความร้อนที่ $ 625,000,000, หกมากที่สุดที่มีคุณค่าของแฟรนไชส์เอ็นบีเอความร้อนจะไม่เกี่ยวข้องกับไมอามี่ Floridians เป็น ABA ทีมในต้นปี 1970 แม้ว่าความร้อนได้จ่ายเงินเป็นครั้งคราวส่วยให้แฟรนไชส์ที่มีอายุมากกว่าโดยการสวมใส่รุ่นแบบจำลองของเครื่องแบบ Floridians ‘สำหรับเอ็นบีเอ “คลาสสิกจากไม้เนื้อแข็งคืน” ในช่วงปี 2005 -06 และฤดูกาล 2011-12</p>", unsafe_allow_html=True)
+    st.markdown("""
+        - **สังกัดในฝั่งตะวันออก** - <span style='color:white;'>Southeast Division</span>
+        - **ปีก่อตั้ง** - <span style='color:white;'>1988</span>
+        - **ชื่อเดิม** - <span style='color:white;'>Miami Heat (1988-ปัจจุบัน)</span>
+        - **สถานที่ตั้ง** - <span style='color:white;'>เมือง Miami รัฐ Florida</span>
+        - **ชื่อสนามเหย้า** - <span style='color:white;'>American Airlines Arena</span>
+        - **เจ้าของทีม** - <span style='color:white;'>Micky Arison</span>
+        - **CEO** - <span style='color:white;'>Nick Arison</span>
+        - **GM (ผู้จัดการทั่วไป)** - <span style='color:white;'>Andy Elisburg</span>
+        - **HC (โค้ชหลัก)** - <span style='color:white;'>Erik Spoelstra</span>
+        - **ทีมสังกัดใน G-League** - <span style='color:white;'>Sioux Falls Skyforce</span>
+        - **จำนวนครั้งที่ได้แชมป์ลีก** - <span style='color:white;'>3 (2006, 2012, 2013)</span>
+        - **จำนวนครั้งที่ได้แชมป์ฝั่งทวีป** - <span style='color:white;'>6 (2006, 2011-2014, 2020)</span>
+        - **จำนวนครั้งที่ได้แชมป์ Division** - <span style='color:white;'>14 (1997-2000, 2005-2007, 2011-2014, 2016, 2018, 2020)</span>
+        - **จำนวนเบอร์เสื้อที่ทำการ Retired** - <span style='color:white;'>6 (1, 3, 10, 23, 32, 33)</span>
+        """, unsafe_allow_html=True)
+    
+    #Miami Heat link
+    st.markdown("[official website](https://www.nba.com/heat)")
+    st.markdown("[ประวัติเต็มๆ](https://www.blockdit.com/posts/6029293d7acb770bc14a81d6?id=6029293d7acb770bc14a81d6&series=5f97ea813ea0500c89ca96cd)")
+
+
+    #Orlando Magic ออร์แลนโด แมจิก
+    st.markdown("<font color='red'><h2>Orlando Magic</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='white '><p>ออร์แลนโด แมจิก</p></font>", unsafe_allow_html=True)
+    
+    #Orlando Magic png
+    Orlando_Magic_png = "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Orlando_Magic_logo.svg/1280px-Orlando_Magic_logo.svg.png"
+    st.image(Orlando_Magic_png, caption='Orlando Magic Logo', width=100, use_column_width=True)
+
+    #Orlando Magic main
+    st.markdown("<p style='color: white;'>ออร์แลนโดเมจิกเป็นอเมริกันมืออาชีพบาสเกตบอลทีมอยู่ในออร์แลนโด, ฟลอริด้า ในการแข่งขันเมจิกในสมาคมบาสเกตบอลแห่งชาติ (NBA) เป็นสมาชิกของลีกประชุมทางทิศตะวันออก ส่วนตะวันออกเฉียงใต้ แฟรนไชส์ก่อตั้งขึ้นในปี 1989 เป็นขยายตัวของแฟรนไชส์และเช่นดาวเอ็นบีเอที่โดดเด่นเป็นShaquille O'Neal , Penny Hardaway , แกรนท์ฮิลล์ , เทรซี่สำเร็จสูงสุดและไวต์โฮเวิร์ดได้เล่นให้กับสโมสรตลอดประวัติศาสตร์หนุ่ม ในปี 2020 แฟรนไชส์ได้เล่นในรอบตัดเชือกของ NBA16 ครั้งใน 31 ฤดูกาลและครั้งที่สองไปที่เอ็นบีเอรอบชิงชนะเลิศใน1995และ2009 ออร์แลนโดเป็นทีมที่ประสบความสำเร็จมากที่สุดเป็นอันดับสองจากสี่ทีมเสริมที่นำเข้ามาในลีกในปี 1988 และ 1989 ในแง่ของเปอร์เซ็นต์การชนะ ต่อจากไมอามี่ ฮีตเท่านั้น</p>", unsafe_allow_html=True)
+    st.markdown("""
+        - **สังกัดในฝั่งตะวันออก** - <span style='color:white;'>Southeast Division</span>
+        - **ปีก่อตั้ง** - <span style='color:white;'>1989</span>
+        - **ชื่อเดิม** - <span style='color:white;'>Orlando Magic (1989-ปัจจุบัน)</span>
+        - **สถานที่ตั้ง** - <span style='color:white;'>เมือง Orlando รัฐ Florida</span>
+        - **ชื่อสนามเหย้า** - <span style='color:white;'>Amway Center</span>
+        - **เจ้าของทีม** - <span style='color:white;'>RDV Sports, Inc.</span>
+        - **CEO** - <span style='color:white;'>Alex Martins</span>
+        - **GM (ผู้จัดการทั่วไป)** - <span style='color:white;'>John Hammond</span>
+        - **HC (โค้ชหลัก)** - <span style='color:white;'>Jamahl Mosley</span>
+        - **ทีมสังกัดใน G-League** - <span style='color:white;'>Lakeland Magic</span>
+        - **จำนวนครั้งที่ได้แชมป์ลีก** - <span style='color:white;'>0</span>
+        - **จำนวนครั้งที่ได้แชมป์ฝั่งทวีป** - <span style='color:white;'>2 (1995, 2009)</span>
+        - **จำนวนครั้งที่ได้แชมป์ Division** - <span style='color:white;'>6 (1995, 1996, 2008-2010, 2019)</span>
+        - **จำนวนเบอร์เสื้อที่ทำการ Retired** - <span style='color:white;'>1 (6)</span>
+        """, unsafe_allow_html=True)
+
+    #Orlando Magic link
+    st.markdown("[official website](https://www.nba.com/team/1610612753/magic)")
+    st.markdown("[ประวัติเต็มๆ](https://www.blockdit.com/posts/60804c7ab844e139af49879b?id=60804c7ab844e139af49879b&series=5f97ea813ea0500c89ca96cd)")
+
+
+    #Washington Wizards วอชิงตัน วิซาร์ดส์
+    st.markdown("<font color='red'><h2>Washington Wizards</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='white '><p>วอชิงตัน วิซาร์ดส์</p></font>", unsafe_allow_html=True)
+
+    #Washington Wizards png
+    Washington_Wizards_png = "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Washington_Wizards_logo.svg/1024px-Washington_Wizards_logo.svg.png"
+    st.image(Washington_Wizards_png, caption='Washington Wizards Logo', width=100, use_column_width=True)
+
+    #Washington Wizards main
+    st.markdown("<p style='color: white;'>วอชิงตัน วิซาร์ดส์ (Washington Wizards) สโมสรกีฬาบาสเกตบอลมืออาชีพซึ่งตั้งอยู่ในกรุงวอชิงตันดีซี แข่งขันในระดับ National Basketball Association (NBA) เป็นกลุ่มสมาชิกในตะวันออก ส่วนตะวันออกเฉียงเหนือ สนามแข่งคือ Capital One Arena ( แคปปิตตอล วัน อารีน่า ) ซึ่งอยู่ในย่านไชน่าทาวน์ของวอชิงตันดีซี ของสหรัฐอเมริกา</p>", unsafe_allow_html=True)
+    st.markdown("""
+        - **สังกัดในฝั่งตะวันออก** - <span style='color:white;'>Southeast Division</span>
+        - **ปีก่อตั้ง** - <span style='color:white;'>1961</span>
+        - **ชื่อเดิม** - <span style='color:white;'>Washington Wizards (1961-ปัจจุบัน)</span>
+        - **สถานที่ตั้ง** - <span style='color:white;'>เมือง Washington รัฐ Washington, D.C.</span>
+        - **ชื่อสนามเหย้า** - <span style='color:white;'>Capital One Arena</span>
+        - **เจ้าของทีม** - <span style='color:white;'>Monumental Sports & Entertainment (Ted Leonsis, Chairman/CEO)</span>
+        - **CEO** - <span style='color:white;'>Ted Leonsis</span>
+        - **GM (ผู้จัดการทั่วไป)** - <span style='color:white;'>Will Dawkins</span>
+        - **HC (โค้ชหลัก)** - <span style='color:white;'>Tristan Vukcevic</span>
+        - **ทีมสังกัดใน G-League** - <span style='color:white;'>The Capital City Go-Go</span>
+        - **จำนวนครั้งที่ได้แชมป์ลีก** - <span style='color:white;'>1</span>
+        - **จำนวนครั้งที่ได้แชมป์ฝั่งทวีป** - <span style='color:white;'>1 (1978)</span>
+        - **จำนวนครั้งที่ได้แชมป์ Division** - <span style='color:white;'>	8 (1969,1971,1972,1973,1974,1975,1979,2017)</span>
+        - **จำนวนเบอร์เสื้อที่ทำการ Retired** - <span style='color:white;'>5 (10,11,25,41,45)</span>
+        """, unsafe_allow_html=True)
+
+    #Washington Wizards link
+    st.markdown("[official website](https://www.nba.com/wizards/)")
+    st.markdown("[ประวัติเต็มๆ](https://www.databet.wiki/%E0%B8%A7%E0%B8%AD%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B8%95%E0%B8%B1%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%8B%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%94%E0%B8%AA%E0%B9%8C/)")
