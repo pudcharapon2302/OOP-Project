@@ -3,14 +3,14 @@ import time
 
 page_bg_img = '''<style>
 .stApp {
-    background-image: url("https://images.unsplash.com/photo-1587960184060-aa880aabdd04?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("https://images.unsplash.com/photo-1484482340112-e1e2682b4856?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
 }
 </style>'''
 
 #ส่วนรายละเอียดเว็บ main
 st.markdown(page_bg_img, unsafe_allow_html=True)
-st.markdown("<h1 style='color: white;text-shadow: 2px 2px 4px #000000;'>Basketball</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='color: orange;text-shadow: 2px 2px 4px #000000;'>Basketball</h1>", unsafe_allow_html=True)
 st.markdown("<h3 style='color: white;'>ประวัติกีฬาบาสเกตบอลเกิดขึ้นในประเทศสหรัฐอเมริกา โดย ดร. เจมส์ ไนสมิท (Dr. James Naismith) คิดค้นกีฬาสำหรับเล่นในร่ม เพื่อให้นักกีฬาออกกำลังระหว่างช่วงฤดูหนาวปี ค.ศ.1891 ภายหลังกีฬาชนิดใหม่นี้ยกระดับจากกีฬามหาวิทยาลัย สู่ลีกอาชีพ บาสเกตบอลเป็นที่ยอมรับทั่วโลกเมื่อบรรจุในกีฬาโอลิมปิกฤดูร้อน ณ กรุงเบอร์ลิน ค.ศ.1936</h3>", unsafe_allow_html=True)
 st.image("https://static.thairath.co.th/media/Dtbezn3nNUxytg04ajZ4trJVmOwXQtJMEuvTXOVgL14wBg.webp", 
          caption="James Naismith ผู้คิดค้นกีฬาบาสเกตบอล ภาพจาก springfield.edu", 
@@ -21,14 +21,14 @@ st.markdown("<style>div.stImage>div>div>div:nth-child(2){color: white;}</style>"
 st.markdown("<h3 style='color: white;'>ผู้คิดค้นกีฬาบาสเกตบอลคือ ดร. เจมส์ ไนสมิท (Dr. James Naismith) ครูสอนพลศึกษาในสมาคมยุวชนคริสเตียนนานาชาติ International Y.M.C.A. Training School (ปัจจุบันคือส่วนหนึ่งในวิทยาลัยสปริงฟิลด์ รัฐแมสซาชูเซตส์ สหรัฐอเมริกา) เนื่องจากฤดูหนาวปี ค.ศ.1891 สภาพอากาศเป็นอุปสรรคต่อการออกกำลังกายกลางแจ้ง นักกีฬาไม่สามารถเล่นอเมริกันฟุตบอล และเบสบอลได้ ดร. เจมส์ ไนสมิท (Dr. James Naismith) พยายามคิดค้นเกมที่เข้าใจได้ง่าย แต่มีชั้นเชิงพอที่จะทำให้ทุกคนสนใจอยากเล่น สามารถเล่นเป็นทีมพร้อมกันได้หลายคน และไม่กระทบกระทั่งกันจนเสี่ยงต่อการบาดเจ็บ</h3>", unsafe_allow_html=True)
 st.markdown("<h3 style='color: white;'>ดร. เจมส์ ไนสมิท จึงคิดเกมด้วยการดัดแปลงกีฬาต่างๆ เข้าด้วยกัน จนได้เกมที่ใช้ลูกบอลกับตะกร้าผลไม้เป็นอุปกรณ์ในการเล่น ด้วยการแขวนตะกร้าไว้บนผนังโรงยิม ในระดับเหนือศีรษะผู้เล่น 2 ฝั่ง และแบ่งผู้เล่นเป็น 2 ทีม ผู้เล่นต้องพยายามโยนลูกบนลงตะกร้าฝ่ายตรงข้ามให้ได้ สุดท้ายทีมที่โยนลูกบอลลงตะกร้าฝ่ายตรงข้ามได้มากที่สุดเป็นผู้ชนะ</h3>", unsafe_allow_html=True)
 
-st.markdown("<h1 style='color: white;text-shadow: 2px 2px 4px #000000;'>เปิดเพลงเพื่ออรรถรส</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='color: orange;text-shadow: 2px 2px 4px #000000;'>เปิดเพลงเพื่ออรรถรส</h1>", unsafe_allow_html=True)
 st.audio("streamlit/Lil Uzi Vert - The Way Life Goes [Official Visualizer].mp3", format="audio/mp3")
 
 
 left,right = st.columns(2)
 
 # สร้าง sidebar
-st.sidebar.markdown("<h1 style='text-shadow: 2px 2px 8px rgba(0,0,0,0.5);'>Menu</h1>", unsafe_allow_html=True)
+st.sidebar.markdown("<h1 style='color: orange;text-shadow: 2px 2px 8px rgba(0,0,0,0.5);'>Menu</h1>", unsafe_allow_html=True)
 
 
 # สร้างปุ่มเพื่อเปลี่ยนหน้า
@@ -37,20 +37,20 @@ if st.sidebar.button("กติกา"):
     with st.spinner('Wait for it...'):
         time.sleep(1)
 
-    st.markdown("<h1 style='color: white;text-shadow: 2px 2px 4px #000000;'>กติกาการแข่งขันบาสเกตบอล</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='color: orange;text-shadow: 2px 2px 4px #000000;'>กติกาการแข่งขันบาสเกตบอล</h1>", unsafe_allow_html=True)
 
-    st.markdown("<h2 style='color: white; text-shadow: 2px 2px 4px #000000;'>ผู้เล่น</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='color: orange; text-shadow: 2px 2px 4px #000000;'>ผู้เล่น</h2>", unsafe_allow_html=True)
     st.markdown("<h3 style='color: white;'>ผู้เล่น มีสิทธิ์ลงแข่งขันจำนวน 12 คน รวมหัวหน้าทีม ในเวลาแข่งขัน ผู้เล่น 5 คนอยู่ในสนามแข่ง และสามารถเปลี่ยนตัวได้</h3>", unsafe_allow_html=True)
 
 
-    st.markdown("<h2 style='color: white;text-shadow: 2px 2px 4px #000000;'>สนามแข่งขัน</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='color: orange;text-shadow: 2px 2px 4px #000000;'>สนามแข่งขัน</h2>", unsafe_allow_html=True)
     st.markdown("<h3 style='color: white;'>สนามแข่งขันเป็นพื้นเรียบ กว้าง 15 เมตร ยาว 28 เมตร วัดจากขอบในของเส้นขอบสนาม</h3>", unsafe_allow_html=True)
     
 
     st.markdown("<h3 style='color: white;'>เส้น ตีเส้นขอบสนามด้วยสีเดียวกัน เพื่อให้เห็นได้ชัดเจน กว้าง 5 เซนติเมตร ได้แก่ เส้นเขตสนาม (Boundary Line), เส้นกลาง (Centre Line), เส้นวงกลมกลาง (Centre Circle) และเส้นครึ่งวงกลมโยนโทษ (Free-Throw Semi-Circles)</h3>", unsafe_allow_html=True)
     
 
-    st.markdown("<h2 style='color: white;text-shadow: 2px 2px 4px #000000;'>อุปกรณ์การแข่งขัน</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='color: orange;text-shadow: 2px 2px 4px #000000;'>อุปกรณ์การแข่งขัน</h2>", unsafe_allow_html=True)
     st.markdown("<h3 style='color: white;'>1. ชุดห่วงตาข่ายยึดกระดานหลัง</h3>", unsafe_allow_html=True)
     st.markdown("<h3 style='color: white;'>2. ลูกบาสเกตบอล</h3>", unsafe_allow_html=True)
     st.markdown("<h3 style='color: white;'>3. นาฬิกาแข่งขัน</h3>", unsafe_allow_html=True)
@@ -65,7 +65,7 @@ if st.sidebar.button("กติกา"):
     st.markdown("<h3 style='color: white;'>12. สนามแข่งขันที่มีพื้นสนาม และแสงสว่างพอเหมาะ</h3>", unsafe_allow_html=True)
 
 
-    st.markdown("<h2 style='color: white;text-shadow: 2px 2px 4px #000000;'>ลูกบาสเกตบอล</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='color: orange;text-shadow: 2px 2px 4px #000000;'>ลูกบาสเกตบอล</h2>", unsafe_allow_html=True)
     st.markdown("<h3 style='color: white;'>ขนาดของลูกบาสเกตบอลที่สหพันธ์บาสเกตบอลนานาชาติ และสมาคมกีฬาบาสเกตบอลแห่งประเทศไทย ให้การรับรอง มีดังนี้</h3>", unsafe_allow_html=True)
 
 
@@ -73,22 +73,22 @@ if st.sidebar.button("กติกา"):
     st.markdown("<h3 style='color: white;'>- ประเภททีมชาย ใช้ลูกบาสเกตบอล ขนาดเบอร์ 7 เส้นรอบวง 749-780 มิลลิเมตร น้ำหนัก 567-650 กรัม</h3>", unsafe_allow_html=True)
 
 
-    st.markdown("<h2 style='color: white;text-shadow: 2px 2px 4px #000000;'>การแข่งขัน</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='color: orange;text-shadow: 2px 2px 4px #000000;'>การแข่งขัน</h2>", unsafe_allow_html=True)
     st.markdown("<h3 style='color: white;'>การแข่งขันในสนามการแข่งขันผู้เล่นของทีมต้องพยายามโยนลูกเข้าห่วงภายใน 24 วินาทีขณะครองบอล และปฏิบัติตามข้อกำหนดอื่นๆ ที่ระบุในกติกา</h3>", unsafe_allow_html=True)
     
 
-    st.markdown("<h2 style='color: white;text-shadow: 2px 2px 4px #000000;'>การนับคะแนน</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='color: orange;text-shadow: 2px 2px 4px #000000;'>การนับคะแนน</h2>", unsafe_allow_html=True)
     st.markdown("<h3 style='color: white;'>- เส้นทำคะแนนระยะเส้น 3 คะแนน ได้ 3 คะแนน</h3>", unsafe_allow_html=True)
     st.markdown("<h3 style='color: white;'>- เส้นทำคะแนนระยะเส้น 2 คะแนน ได้ 2 คะแนน</h3>", unsafe_allow_html=True)
     st.markdown("<h3 style='color: white;'>- ปล่อยลูกบาสจากเขตโยนโทษ ได้ 1 คะแนน</h3>", unsafe_allow_html=True)
 
 
-    st.markdown("<h2 style='color: white;text-shadow: 2px 2px 4px #000000;'>ระยะเวลาการแข่งขัน</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='color: orange;text-shadow: 2px 2px 4px #000000;'>ระยะเวลาการแข่งขัน</h2>", unsafe_allow_html=True)
     st.markdown("<h3 style='color: white;'>การแข่งขันประกอบด้วย 4 ช่วงเวลา ช่วงละ 10 นาที มีช่วงพักการแข่งขัน พักครึ่ง ช่วงต่อเวลา และช่วงต่อเวลาพิเศษ โดยจะมีเสียงสัญญาณนาฬิกาจับเวลาแข่งขัน</h3>", unsafe_allow_html=True)
     st.markdown("<h3 style='color: white;'>เมื่อนับรวมช่วงเวลาต่างๆ จึงใช้เวลาแข่งขันไม่ต่ำกว่า 50 นาทีต่อหนึ่งเกม</h3>", unsafe_allow_html=True)
 
 
-    st.markdown("<h2 style='color: white;text-shadow: 2px 2px 4px #000000;'>ผู้ชนะการแข่งขัน</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='color: orange;text-shadow: 2px 2px 4px #000000;'>ผู้ชนะการแข่งขัน</h2>", unsafe_allow_html=True)
     st.markdown("<h3 style='color: white;'>ทีมที่ได้คะแนนมากกว่าเมื่อสิ้นสุดเวลาการแข่งขัน ถือเป็นผู้ชนะ</h3>", unsafe_allow_html=True)
 
 
@@ -100,16 +100,16 @@ if st.sidebar.button("NBA"):
     with st.spinner('Wait for it...'):
         time.sleep(1)
 
-    st.markdown("<h1 style='color: white;text-shadow: 2px 2px 4px #000000;'>NBA</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='color: orange;text-shadow: 2px 2px 4px #000000;'>NBA</h1>", unsafe_allow_html=True)
     st.markdown("<h3 style='color: white;'>เอ็นบีเอ (NBA) ย่อมาจาก National Basketball Association ซึ่งเป็นชื่อของลีกบาสเกตบอลอาชีพในอเมริกาเหนือ ซึ่งรวมประเทศสหรัฐอเมริกาและแคนาดา มีนักกีฬาบาสเก็ตบอลชั้นนำของโลกเล่นอยู่ในเอ็นบีเอนี้เป็นจำนวนมาก ซึ่งทำให้มาตรฐานระดับการแข่งขันนั้นถือว่าอยู่ในระดับสูง สัญลักษณ์ประจำเอ็นบีเอทางด้านขวานั้น เป็นภาพเงาของ เจอร์รี เวสต์ ซึ่งเคยเป็นผู้จัดการทั่วไปของทีมเลเกอร์ส และทีมเมมฟิส กริซลีส์</h3>", unsafe_allow_html=True)
     st.markdown("<h3 style='color: white;'>เอ็นบีเอ ก่อตั้งขึ้นที่นครนิวยอร์ก ในวันที่ 6 มิถุนายน ค.ศ. 1946 ในชื่อ Basketball Association of America (BAA) ซึ่งต่อมาเปลี่ยนชื่อเป็น National Basketball Association ในช่วงฤดูใบไม้ร่วงในปี ค.ศ. 1949 หลังจากการรวมตัวกับทีมจาก National Basketball League (NBL)</h3>", unsafe_allow_html=True)
     st.markdown("<h3 style='color: white;'>เอ็นบีเอนั้นเป็นลีกกีฬาอาชีพแรก ที่มีโค้ชหลักเป็นคนผิวดำ ในปี ค.ศ. 1966 และก็ยังเป็นลีกแรก ที่มีผู้จัดการทั่วไปเป็นคนผิวดำ ในปี ค.ศ. 1972 นอกจากนี้แล้ว ยังเป็นลีกแรก ที่มีเจ้าของทีมเป็นคนผิวดำ ในปี ค.ศ. 200</h3>", unsafe_allow_html=True)
 
-    st.markdown("<h1 style='color: white;text-shadow: 2px 2px 4px #000000;'>อ้างอิง</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='color: orange;text-shadow: 2px 2px 4px #000000;'>อ้างอิง</h1>", unsafe_allow_html=True)
     st.markdown("https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%99%E0%B8%9A%E0%B8%B5%E0%B9%80%E0%B8%AD")
 
 #Division header
-st.sidebar.markdown("<h1 style='text-shadow: 2px 2px 8px rgba(0,0,0,0.5);'>Division</h1>", unsafe_allow_html=True)
+st.sidebar.markdown("<h1 style='color: orange; text-shadow: 2px 2px 8px rgba(0,0,0,0.5);'>Division</h1>", unsafe_allow_html=True)
 st.sidebar.subheader("## ข้อมูลอัพเดตล่าสุด 2021")
 
 
@@ -1123,7 +1123,7 @@ if st.sidebar.button('SOUTHWEST'):
     st.markdown("[ประวัติเต็มๆ](https://hmong.in.th/wiki/San_Antonio_Spurs)")
 
 
-st.sidebar.markdown("<h1 style='text-shadow: 2px 2px 8px rgba(0,0,0,0.5);'>โปรแกรมฝึกเล่นบาส</h1>", unsafe_allow_html=True)
+st.sidebar.markdown("<h1 style='color: orange;text-shadow: 2px 2px 8px rgba(0,0,0,0.5);'>โปรแกรมฝึกเล่นบาส</h1>", unsafe_allow_html=True)
 
 def main():
     option = st.sidebar.selectbox(
