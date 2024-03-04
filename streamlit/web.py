@@ -98,6 +98,8 @@ if st.sidebar.button("NBA"):
 
 #Division header
 st.sidebar.markdown("<h1 style='text-shadow: 2px 2px 8px rgba(0,0,0,0.5);'>Division</h1>", unsafe_allow_html=True)
+st.sidebar.subheader("## ข้อมูลอัพเดตล่าสุด 2021")
+
 
 if st.sidebar.button('ATLANTIC'):
         #st.markdown("<h1 style='color: red; text-shadow: 2px 2px white;'>Division ATLANTIC</h1>", unsafe_allow_html=True)
@@ -594,3 +596,171 @@ if st.sidebar.button('SOUTHEAST'):
     #Washington Wizards link
     st.markdown("[official website](https://www.nba.com/wizards/)")
     st.markdown("[ประวัติเต็มๆ](https://www.databet.wiki/%E0%B8%A7%E0%B8%AD%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B8%95%E0%B8%B1%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%8B%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%94%E0%B8%AA%E0%B9%8C/)")
+
+if st.sidebar.button('NORTHWEST'):
+
+    # Division NORTHWEST
+    st.markdown("<h1 style='color: red; text-shadow: 2px 2px white;'>Division NORTHWEST</h1>", unsafe_allow_html=True)
+
+    #Denver Nuggets เดนเวอร์ นักเก็ตส์
+    st.markdown("<font color='yellow'><h2>Denver Nuggets</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='blue '><p>เดนเวอร์ นักเก็ตส์</p></font>", unsafe_allow_html=True)
+
+    #Denver Nuggets png
+    Denver_Nuggets_png = "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Denver_Nuggets.svg/1024px-Denver_Nuggets.svg.png"
+    st.image(Denver_Nuggets_png, caption='Denver Nuggets Logo', width=100, use_column_width=True)
+
+    #Denver Nuggets main
+    st.markdown("<p style='color: white;'>เดนเวอร์ นักเก็ตส์ เป็นทีมบาสเกตบอลในลีกเอ็นบีเอ ในเมืองเดนเวอร์ รัฐโคโลราโด เล่นอยู่ในดิวิชั่นภาคตะวันตกเฉียงเหนือในคอนเฟอเรนส์ตะวันออก เริ่มแรกคือทีม เดนเวอร์ รอกเก็ตส์ ซึ่งเล่นอยู่ในลีกเอบีเอ ต่อมาในปี ค.ศ. 1976 จึงเข้าร่วมลีกเอ็นบีเอเดนเวอร์นักเกตเป็นทีมบาสเกตบอลมืออาชีพชาวอเมริกันที่อยู่ในเดนเวอร์โคโลราโด นักเก็ตเป็นสมาชิกคนหนึ่งของภาคตะวันตกเฉียงเหนือกองของสายตะวันตกในสมาคมบาสเกตบอลแห่งชาติ (NBA) ทีมที่ได้รับการก่อตั้งขึ้นเป็นเดนเวอร์ Larks ในปี 1967 ในฐานะที่เป็นแฟรนไชส์กฎบัตรของสมาคมบาสเกตบอลอเมริกัน (ABA) แต่เปลี่ยนชื่อเป็นจรวดก่อนที่ฤดูกาลแรก. มันเปลี่ยนชื่ออีกครั้งเพื่อให้นักเก็ตในปี 1974 และเล่นให้กับ สุดท้าย ABA แชมป์ชื่อในปี  1976 แพ้ไปนิวยอร์กตาข่ายทีมที่เข้าร่วมในเอ็นบีเอในปี 1976 หลังจากการควบรวมกิจการสดเอ็นบีเอและได้มีบางช่วงของความสำเร็จมีคุณสมบัติสำหรับรอบตัดเชือกในเก้าฤดูกาลติดต่อกันในปี 1980 และการทำเช่นเดียวกันสำหรับก่อนหน้านี้สิบฤดูกาล แต่ก็ยังไม่ได้ปรากฏตัวในหนึ่งรอบชิงแชมป์ตั้งแต่ปีที่แล้วในสถาบันการเงิน นักเก็ตเล่นเกมในบ้านของพวกเขาที่เป๊ปซี่เซ็นเตอร์ซึ่งพวกเขาร่วมกับโคโลราโดถล่มของสมาคมฮอกกี้แห่งชาติ (NHL)</p>", unsafe_allow_html=True)
+    st.markdown("""
+        - **สังกัดในฝั่งตะวันตก** - <span style='color:white;'>Northwest Division</span>
+        - **ปีที่ก่อตั้ง** - <span style='color:white;'>1967</span>
+        - **ชื่อเดิม** - 
+          <span style='color:white;'>Denver Rockets (1967-1974)</span>
+          <span style='color:white;'>Denver Nuggets (1974-ปัจจุบัน)</span>
+        - **สถานที่ตั้ง** - <span style='color:white;'>เมือง Denver รัฐ Colorado</span>
+        - **ชื่อสนามเหย้า** - <span style='color:white;'>Ball Arena</span>
+        - **เจ้าของทีม** - <span style='color:white;'>Ann Walton Kroenke</span>
+        - **CEO** - <span style='color:white;'>Jim Martin</span>
+        - **GM (General Manager)** - <span style='color:white;'>Calvin Booth</span>
+        - **HC (Head Coach)** - <span style='color:white;'>Michael Malone</span>
+        - **ทีมสังกัดใน G-League** - <span style='color:white;'>ไม่มี</span>
+        - **จำนวนครั้งที่ได้แชมป์ลีก** - <span style='color:white;'>0</span>
+        - **จำนวนครั้งที่ได้แชมป์ฝั่งทวีป** - <span style='color:white;'>0</span>
+        - **จำนวนครั้งที่ได้แชมป์ Division** - <span style='color:white;'>11 (1970, 1975, 1977, 1978, 1985, 1988, 2006, 2009, 2010, 2019, 2020)</span>
+        - **จำนวนเบอร์เสื้อที่ทำการ Retired** - <span style='color:white;'>7 (2, 12, 33, 40, 44, 55, 432)</span>
+        """, unsafe_allow_html=True)
+
+    #Denver Nuggets link
+    st.markdown("[official website](https://www.nba.com/nuggets/)")
+    st.markdown("[ประวัติเต็มๆ](https://www.blockdit.com/posts/5fe744d35e4d4d0cdbd82093?id=5fe744d35e4d4d0cdbd82093&series=5f97ea813ea0500c89ca96cd)")
+
+
+    #Minnesota Timberwolves มินเนโซตา ทิมเบอร์วูลฟ์ส
+    st.markdown("<font color='blue'><h2>Minnesota Timberwolves</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='white '><p>มินเนโซตา ทิมเบอร์วูลฟ์ส</p></font>", unsafe_allow_html=True)
+
+    #Minnesota Timberwolves png
+    Minnesota_Timberwolves_png = "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Minnesota_Timberwolves_logo.svg/1024px-Minnesota_Timberwolves_logo.svg.png"
+    st.image(Minnesota_Timberwolves_png, caption='Minnesota Timberwolves Logo', width=100, use_column_width=True)
+
+    #Minnesota Timberwolves main
+    st.markdown("<p style='color: white;'>Minnesota Timberwolves (ยังเรียกว่าT-หมาป่าหรือหมาป่า) เป็นทีมบาสเกตบอลมืออาชีพชาวอเมริกันที่อยู่ใน Minneapolis, Minnesota พวกเขาเล่นในภาคตะวันตกเฉียงเหนือกองของสายตะวันตกในสมาคมบาสเกตบอลแห่งชาติ (NBA). ก่อตั้งขึ้นในปี 1989 ทีมที่เป็นเจ้าของโดยเกลนเทย์เลอร์.  ทิมเบอร์วูเล่นเกมในบ้านของพวกเขาระหว่างเมโทรโดมและศูนย์Met ในช่วงต้นฤดูกาลของพวกเขาก่อนที่จะย้ายไปยังศูนย์เป้าหมายในปี 1990 ชอบมากที่สุดขยายทีมงานที่ Timberwolves ต่อสู้ในช่วงปีแรกของพวกเขา แต่หลังจากที่เข้าซื้อกิจการของเควินการ์เน็ตใน 1995 เอ็นบีเอร่างทีมทำรอบตัดเชือกแปดครั้งติดต่อกันจากปี 1997 ปี 2004 แม้จะมีการสูญเสียในรอบแรกในความพยายามครั้งแรกของพวกเจ็ด ที่ได้รับรางวัลชื่อ Timberwolves ส่วนแรกของพวกเขาใน2004และก้าวเข้าสู่รอบรองชนะเลิศสายตะวันตก การ์เน็ตก็ยังตั้งชื่อเอ็นบีเอที่ให้คุณค่าสูงสุดกับรางวัลผู้เล่นสำหรับฤดูกาลนี้. ทีมงานได้รับในการสร้างโหมดสำหรับทศวรรษที่ผ่านมาหายไปตั้งแต่รอบตัดเชือกในปี 2005 และการค้าการ์เน็ตกับบอสตันเซลติกส์ในปี 2007  Garnett กลับ ไป Timberwolves ในกุมภาพันธ์ 2015</p>", unsafe_allow_html=True)
+    st.markdown("""
+        - **สังกัดในฝั่งตะวันตก** - <span style='color:white;'>Northwest Division</span>
+        - **ปีที่ก่อตั้ง** - <span style='color:white;'>1989</span>
+        - **ชื่อเดิม** - <span style='color:white;'>Minnesota Timberwolves (1989-ปัจจุบัน)</span>
+        - **สถานที่ตั้ง** - <span style='color:white;'>เมือง Minneapolis รัฐ Minnesota</span>
+        - **ชื่อสนามเหย้า** - <span style='color:white;'>Target Center</span>
+        - **เจ้าของทีม** - <span style='color:white;'>Glen Taylor</span>
+        - **CEO** - <span style='color:white;'>Ethan Casson</span>
+        - **GM (General Manager)** - <span style='color:white;'>ไม่มี</span>
+        - **HC (Head Coach)** - <span style='color:white;'>Chris Finch</span>
+        - **ทีมสังกัดใน G-League** - <span style='color:white;'>Iowa Wolves</span>
+        - **จำนวนครั้งที่ได้แชมป์ลีก** - <span style='color:white;'>0</span>
+        - **จำนวนครั้งที่ได้แชมป์ฝั่งทวีป** - <span style='color:white;'>0</span>
+        - **จำนวนครั้งที่ได้แชมป์ Division** - <span style='color:white;'>1 (2004)</span>
+        - **จำนวนเบอร์เสื้อที่ทำการ Retired** - <span style='color:white;'>1 (2)</span>
+        """, unsafe_allow_html=True)
+    
+    #Minnesota Timberwolves link
+    st.markdown("[official website](https://www.nba.com/timberwolves/)")
+    st.markdown("[ประวัติเต็มๆ](https://www.blockdit.com/posts/605753d66494ea0c447d3306?id=605753d66494ea0c447d3306&series=5f97ea813ea0500c89ca96cd)")
+
+
+    #Oklahoma City Thunder โอคลาโฮมา ซิตี้ ธันเดอร์ 
+    st.markdown("<font color='blue'><h2>Oklahoma City Thunder</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='white '><p>โอคลาโฮมา ซิตี้ ธันเดอร์ </p></font>", unsafe_allow_html=True)
+
+    #Oklahoma City Thunder png
+    Oklahoma_City_Thunder_png = "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Oklahoma_City_Thunder.svg/1024px-Oklahoma_City_Thunder.svg.png"
+    st.image(Oklahoma_City_Thunder_png, caption='Oklahoma City Thunder Logo', width=100, use_column_width=True) 
+
+    #Oklahoma City Thunder main
+    st.markdown("<p style='color: white;'>โอคลาโฮมาซิตีธันเดอร์เป็น ทีมบาสเกตบอลมืออาชีพชาวอเมริกันที่อยู่ในโอคลาโฮมาซิตี, โอคลาโฮมา ทันเดอร์ในการแข่งขันในสมาคมบาสเกตบอลแห่งชาติ (NBA) ในฐานะสมาชิกคนหนึ่งของสายตะวันตกตะวันตกเฉียงเหนือกอง. ทีมที่เล่นเกมที่บ้านของChesapeake Energy Arena. ทันเดอร์ของเอ็นบีเอพัฒนาลีกพันธมิตรคือโอคลาโฮมาเมืองสีฟ้าซึ่งเป็นเจ้าของโดยทันเดอร์. ทันเดอร์เป็นทีมเดียวในกีฬาอเมริกันมืออาชีพที่สำคัญเหนือลีกที่อยู่ในรัฐโอคลาโฮมา.ทีมแรกที่จัดตั้งขึ้นในขณะที่ซีแอตเติล SuperSonics การขยายตัวของทีมที่เข้าร่วมในเอ็นบีเอฤดูกาล 1967-68  SuperSonics ย้ายในปี 2008 หลังจากที่นิคมถึงระหว่างกลุ่มเจ้าของนำโดยดินเบนเน็ตต์และฝ่ายนิติบัญญัติในซีแอตเติลวอชิงตันต่อไปนี้คดี ในซีแอตเติที่ SuperSonics คุณสมบัติสำหรับเอ็นบีเอเพลย์ออฟ 22 ครั้งได้รับรางวัลส่วนของหกครั้งและได้รับรางวัล 1979 แชมป์เอ็นบีเอ ในโอคลาโฮมาซิตี้ทันเดอร์ที่มีคุณภาพสำหรับเรือท่องเที่ยวแรกของพวกเขาในช่วงฤดูกาล 2009-10 พวกเขาประสบความสำเร็จตามมาด้วยการชนะการแบ่งหัวข้อแรกของพวกเขาในขณะที่ทันเดอร์ในฤดูกาล 2010-11 และแชมป์สายตะวันตกของพวกเขาเป็นครั้งแรกที่ทันเดอร์ในฤดูกาล 2011-12 ที่ปรากฏในรอบชิงชนะเลิศเอ็นบีเอเป็นครั้งที่สี่ในประวัติศาสตร์แฟรนไชส์และเป็นครั้งแรกนับตั้งแต่ 1996 เมื่อสโมสรที่อยู่ในซีแอตติ</p>", unsafe_allow_html=True)
+    st.markdown("""
+        - **สังกัดในฝั่งตะวันตก** - <font color="white">Northwest Division</font>
+        - **ปีที่ก่อตั้ง** - <font color="white">1967</font>
+        - **ชื่อเดิม** - <font color="white">Seattle Supersonics (1967-2008), Oklahoma City Thunder (2008-ปัจจุบัน)</font>
+        - **สถานที่ตั้ง** - <font color="white">เมือง Oklahoma City รัฐ Oklahoma</font>
+        - **ชื่อสนามเหย้า** - <font color="white">Chesapeake Energy Arena</font>
+        - **เจ้าของทีม** - <font color="white">Professional Basketball Club LLC</font>
+        - **CEO** - <font color="white">Clay Bennett</font>
+        - **GM (General Manager)** - <font color="white">Sam Presti</font>
+        - **HC (Head Coach)** - <font color="white">Mark Daigneault</font>
+        - **ทีมสังกัดใน G-League** - <font color="white">Oklahoma City Blue</font>
+        - **จำนวนครั้งที่ได้แชมป์ลีก** - <font color="white">1 (1979)</font>
+        - **จำนวนครั้งที่ได้แชมป์ฝั่งทวีป** - <font color="white">4 (1978, 1979, 1996, 2012)</font>
+        - **จำนวนครั้งที่ได้แชมป์ Division** - <font color="white">11 (1979, 1994, 1996-1998, 2005, 2011-2014, 2016)</font>
+        - **จำนวนเบอร์เสื้อที่ทำการ Retired** - <font color="white">7 (1, 4, 10, 19, 24, 32, 43)</font>
+        """, unsafe_allow_html=True)
+    
+    #Oklahoma City Thunder link
+    st.markdown("[official website](https://www.nba.com/thunder/)")
+    st.markdown("[ประวัติเต็มๆ](https://www.blockdit.com/posts/60780ae74bbb3e0c2ee60b91?id=60780ae74bbb3e0c2ee60b91&series=5f97ea813ea0500c89ca96cd)")
+
+
+    #Portland Trail Blazers พอร์ตแลนด์ เทรลเบลเซอร์ส
+    st.markdown("<font color='blue'><h2>Portland Trail Blazers</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='white '><p>พอร์ตแลนด์ เทรลเบลเซอร์ส </p></font>", unsafe_allow_html=True) 
+
+    #Portland Trail Blazers png
+    Portland_Trail_Blazers_png = "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Portland_Trail_Blazers_logo.svg/1024px-Portland_Trail_Blazers_logo.svg.png"
+    st.image(Portland_Trail_Blazers_png, caption='Portland Trail Blazers Logo', width=100, use_column_width=True) 
+
+    #Portland Trail Blazers main
+    st.markdown("<p style='color: white;'>พอร์ตแลนด์เทรลเบลเซอร์ที่รู้จักกันทั่วไปว่าเป็นพอร์ตแลนด์มีทีมบาสเกตบอลมืออาชีพชาวอเมริกันที่อยู่ในพอร์ตแลนด์โอเรกอน พวกเขาเล่นในภาคตะวันตกเฉียงเหนือกองของสายตะวันตกในสมาคมบาสเกตบอลแห่งชาติ (NBA) พอร์ตแลนด์เทรลเบลเซอร์ที่เล่นเกมในบ้านของพวกเขาในสนามกีฬาอนุสรณ์ก่อนที่จะย้ายไปModa ศูนย์ในปี1995 (เรียกว่าโรสการ์เด้จนกระทั่ง 2013) แฟรนไชส์เข้าลีกในปี 1970 และได้รับการพอร์ตแลนด์เมืองที่บ้านของตนเท่านั้น แฟรนไชส์มีความสุขต่อไปนี้ที่แข็งแกร่ง; จาก 1977 ผ่าน 1995 ทีมขายออก 814 เกมในบ้านติดต่อกันแนวดังกล่าวที่ยาวที่สุดในกีฬาอเมริกันมืออาชีพที่สำคัญในเวลาเพียงค้นพบโดยคลีฟแลนด์อินเดียและบอสตันเรดซอกซ์. เอ็นบีเอทีมที่อยู่ใน binational แปซิฟิกตะวันตกเฉียงเหนือหลังจากที่ริซลี่แวนคูเวอร์ย้ายไปอยู่ที่เมมฟิสและกลายเป็นเมมฟิสกริซลีในปี2001 และซีแอตเติล SuperSonics ย้ายไปอยู่ที่เมืองโอคลาโฮมาและกลายเป็นโอคลาโฮมาซิตีธันเดอร์ในปี2008ทีมที่ได้ก้าวเข้าสู่รอบชิงชนะเลิศเอ็นบีเอสามครั้งชนะการแข่งขันชิงแชมป์เอ็นบีเอครั้งใน 1977 ปรากฏรอบชิงชนะเลิศเอ็นบีเออื่น ๆ ของพวกเขาอยู่ใน 1990 และ 1992. ทีมมีคุณสมบัติในรอบตัดเชือกในวันที่ 31 ฤดูกาลของการดำรงอยู่ 45 ฤดูกาลของพวกเขารวมถึงแนวของ 21 ปรากฏตรงจาก 1983 ผ่าน 2003 แนวยาวที่สุดเป็นอันดับสองในประวัติศาสตร์เอ็นบีเอ . พอร์ตแลนด์เทรลเบลเซอร์ ’31 เลื่อนอันดับที่สามในเอ็นบีเอเท่านั้นที่อยู่เบื้องหลัง Los Angeles Lakers และสเปอร์สในซานอันโตนิโอตั้งแต่เริ่มก่อตั้งทีมในปี1970  หกฮอลล์ออฟเฟมเล่นได้เล่นให้กับเสื้อคลุมแกะรอย  (Lenny Wilkens, Bill Walton, Clyde Drexler, Dražen Petrović, Arvydas Sabonis, and Scottie Pippen)  บิลวอลตันเป็นผู้เล่นที่อลังการที่สุดของแฟรนไชส์; เขาเป็นรอบชิงชนะเลิศเอ็นบีเอมากนักใน1977และฤดูกาลปกติMVP ต่อไปนี้ปี. ล่วงหน้าสี่ Blazer (เจฟฟ์เพท, ซิดนีย์สาดแสง, แบรนดอนรอยและเดเมียน Lillard) ได้รับรางวัล Rookie เอ็นบีเอของปีรางวัล. สองฮอลล์ออฟเฟมของโค้ช, เลนนี่ Wilkens และแจ็ค Ramsay ได้ลาดตระเวนสนามสำหรับเสื้อคลุมและสองคนอื่น ๆไมค์ชูเลอร์และไมค์ Dunleavy, ได้รับรางวัลโค้ชเอ็นบีเอในปีนี้ได้รับรางวัลกับทีม.</p>", unsafe_allow_html=True)
+    st.markdown("""
+        - **สังกัดในฝั่งตะวันตก** - <font color="white">Northwest Division</font>
+        - **ปีที่ก่อตั้ง** - <font color="white">1970</font>
+        - **ชื่อเดิม** - <font color="white">Portland Trail Blazers (1970-ปัจจุบัน)</font>
+        - **สถานที่ตั้ง** - <font color="white">เมือง Portland รัฐ Oregon</font>
+        - **ชื่อสนามเหย้า** - <font color="white">Moda Center</font>
+        - **เจ้าของทีม** - <font color="white">Paul G. Allen Trust</font>
+        - **CEO** - <font color="white">Chris McGowan</font>
+        - **GM (General Manager)** - <font color="white">Neil Olshey</font>
+        - **HC (Head Coach)** - <font color="white">Terry Stotts</font>
+        - **ทีมสังกัดใน G-League** - <font color="white">ไม่มี</font>
+        - **จำนวนครั้งที่ได้แชมป์ลีก** - <font color="white">1 (1977)</font>
+        - **จำนวนครั้งที่ได้แชมป์ฝั่งทวีป** - <font color="white">3 (1977, 1990, 1992)</font>
+        - **จำนวนครั้งที่ได้แชมป์ Division** - <font color="white">6 (1978, 1991, 1992, 1999, 2015, 2018)</font>
+        - **จำนวนเบอร์เสื้อที่ทำการ Retired** - <font color="white">12 (1, 13, 14, 15, 20, 22, 30 (สองคน), 32, 36, 45, 77)</font>
+        """, unsafe_allow_html=True)
+    
+    #Portland Trail Blazers link
+    st.markdown("[official website](https://www.nba.com/blazers/)")
+    st.markdown("[ประวัติเต็มๆ](https://www.blockdit.com/posts/60a12545bbaba50c4bb84c7b?id=60a12545bbaba50c4bb84c7b&series=5f97ea813ea0500c89ca96cd)")
+
+
+    #Utah Jazz ยูทาห์ แจ๊ซ
+    st.markdown("<font color='blue'><h2>Utah Jazz</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='white '><p>ยูทาห์ แจ๊ซ </p></font>", unsafe_allow_html=True) 
+
+    #Utah Jazz png
+    Utah_Jazz_png = "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Utah_Jazz_logo_2022.svg/1280px-Utah_Jazz_logo_2022.svg.png"
+    st.image( Utah_Jazz_png, caption='Utah Jazz Logo', width=100, use_column_width=True) 
+
+    #Utah Jazz main
+    st.markdown("<p style='color: white;'>ยูทาห์แจ๊เป็นทีมบาสเกตบอลอาชีพชาวอเมริกันที่อยู่ในSalt Lake City, ยูทาห์ แจ๊สในการแข่งขันในสมาคมบาสเกตบอลแห่งชาติ (NBA) เป็นทีมสมาชิกของสายตะวันตกส่วนที่ภาคตะวันตกเฉียงเหนือ ทีมที่เล่นเกมที่บ้านของVivint สนามกีฬาบ้านสมาร์ทในSalt Lake City ทีมที่เริ่มเล่นในปี 1974 ในขณะที่แจ๊สนิวออร์ซึ่งตั้งอยู่ในนิวออร์, หลุยเซีย ย้ายไปร่วมทีมซอลต์เลกซิตีในปี 1979แจ๊สเป็นหนึ่งที่ประสบความสำเร็จในทีมอย่างน้อยในลีกในปีแรกของพวกเขา แม้ว่าที่ผ่านไป 10 ฤดูกาลก่อนที่แจ๊สที่มีคุณภาพสำหรับแรกของพวกเขาปรากฏตัวรอบรองชนะเลิศ (ใน1984) พวกเขาจะไม่พลาดในรอบตัดเชือกอีกเลยจนกระทั่งปี 2004 ในช่วงปลายปี 1980 จอห์นสต็อกตันและคาร์ลมาโลนที่เกิดขึ้นเป็นผู้เล่นแฟรนไชส์ให้กับทีมและเกิดขึ้นอย่างใดอย่างหนึ่งของที่มีชื่อเสียงมากที่สุดยามจุด – อำนาจไปข้างหน้า Duos ในประวัติศาสตร์เอ็นบีเอ นำโดยโค้ชเจอร์รีสโลนที่เอาไปสำหรับแฟรงค์ Layden ในปี 1988 พวกเขากลายเป็นหนึ่งในทีมที่โรงไฟฟ้าของปี 1990 สูงสุดในสองรอบชิงชนะเลิศเอ็นบีเอที่ปรากฏใน 1997 และ 1998 ที่พวกเขาหายไปทั้งสองครั้งกับชิคาโกบูลส์นำโดยไมเคิลจอร์แดนทั้งสต็อกตันและย้ายมาโลนในปี 2003 หลังจากที่หายไปรอบตัดเชือกสามฤดูกาลติดต่อกันแจ๊สกลับมาให้ความสำคัญภายใต้การนำในศาลของจุดเฝ้าเดรอนวิลเลียมส์แต่ครึ่งผ่าน 2010-11 เอ็นบีเอฤดูกาล, แจ๊สเริ่มปรับโครงสร้างหนี้หลังจากการเกษียณอายุของสโลนและการค้าวิลเลียมส์กับมลรัฐนิวเจอร์ซีย์แห ทีมที่ได้ทำให้รอบตัดเชือกตั้งแต่นั้นใน2012 ภายใต้โค้ชไทโรนคอร์และเป็นจุดเริ่มต้นยุคใหม่ภายใต้โค้ชวินไนเดอร์แจ๊สเป็นหนึ่งในสองทีมในเมเจอร์ลีกกีฬาอาชีพที่ตั้งอยู่ในรัฐยูทาห์; ทีมอื่น ๆ ที่เป็นจริงSalt Lake เป็นมืออาชีพฟุตบอลทีมในเมเจอร์ลีกซอกเกอร์ (MLS)มูลค่า $ 850,000,000 โดย Forbes, ยศแจ๊สเป็นแฟรนไชส์ที่มีค่าที่สุดที่ 20 ในเอ็นบีเอไปข้างหน้าของอินเดียนา Pacers และแอตแลนตาฮอกส์</p>", unsafe_allow_html=True)
+    st.markdown("""
+    - **สังกัดในฝั่งตะวันตก** - <font color="white">Northwest Division</font>
+    - **ปีที่ก่อตั้ง** - <font color="white">1970</font>
+    - **ชื่อเดิม** - <font color="white">Utah Jazz (1970-ปัจจุบัน)</font>
+    - **สถานที่ตั้ง** - <font color="white">เมือง Salt Lake City รัฐ Utah</font>
+    - **ชื่อสนามเหย้า** - <font color="white">Vivint Smart Home Arena</font>
+    - **เจ้าของทีม** - <font color="white">Gail Miller and the Miller Family</font>
+    - **CEO** - <font color="white">Jim Olson</font>
+    - **GM (General Manager)** - <font color="white">Justin Zanik</font>
+    - **HC (Head Coach)** - <font color="white"> Quin Snyder</font>
+    - **ทีมสังกัดใน G-League** - <font color="white">Salt Lake City Stars</font>
+    - **จำนวนครั้งที่ได้แชมป์ลีก** - <font color="white">0</font>
+    - **จำนวนครั้งที่ได้แชมป์ฝั่งทวีป** - <font color="white">0</font>
+    - **จำนวนครั้งที่ได้แชมป์ Division** - <font color="white">9 (1984, 1989, 1992-1994, 1996-1998, 2000)</font>
+    - **จำนวนเบอร์เสื้อที่ทำการ Retired** - <font color="white"> 6 (1, 4, 7, 9, 12, 14)</font>
+    """, unsafe_allow_html=True)
+
+    #Utah Jazz link
+    st.markdown("[official website](https://www.nba.com/jazz/)")
+    st.markdown("[ประวัติเต็มๆ](https://hmong.in.th/wiki/Utah_Jazz)")
+
+if st.sidebar.button('PACIFIC'):
