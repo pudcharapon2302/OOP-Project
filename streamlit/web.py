@@ -21,6 +21,10 @@ st.markdown("<style>div.stImage>div>div>div:nth-child(2){color: white;}</style>"
 st.markdown("<h3 style='color: white;'>ผู้คิดค้นกีฬาบาสเกตบอลคือ ดร. เจมส์ ไนสมิท (Dr. James Naismith) ครูสอนพลศึกษาในสมาคมยุวชนคริสเตียนนานาชาติ International Y.M.C.A. Training School (ปัจจุบันคือส่วนหนึ่งในวิทยาลัยสปริงฟิลด์ รัฐแมสซาชูเซตส์ สหรัฐอเมริกา) เนื่องจากฤดูหนาวปี ค.ศ.1891 สภาพอากาศเป็นอุปสรรคต่อการออกกำลังกายกลางแจ้ง นักกีฬาไม่สามารถเล่นอเมริกันฟุตบอล และเบสบอลได้ ดร. เจมส์ ไนสมิท (Dr. James Naismith) พยายามคิดค้นเกมที่เข้าใจได้ง่าย แต่มีชั้นเชิงพอที่จะทำให้ทุกคนสนใจอยากเล่น สามารถเล่นเป็นทีมพร้อมกันได้หลายคน และไม่กระทบกระทั่งกันจนเสี่ยงต่อการบาดเจ็บ</h3>", unsafe_allow_html=True)
 st.markdown("<h3 style='color: white;'>ดร. เจมส์ ไนสมิท จึงคิดเกมด้วยการดัดแปลงกีฬาต่างๆ เข้าด้วยกัน จนได้เกมที่ใช้ลูกบอลกับตะกร้าผลไม้เป็นอุปกรณ์ในการเล่น ด้วยการแขวนตะกร้าไว้บนผนังโรงยิม ในระดับเหนือศีรษะผู้เล่น 2 ฝั่ง และแบ่งผู้เล่นเป็น 2 ทีม ผู้เล่นต้องพยายามโยนลูกบนลงตะกร้าฝ่ายตรงข้ามให้ได้ สุดท้ายทีมที่โยนลูกบอลลงตะกร้าฝ่ายตรงข้ามได้มากที่สุดเป็นผู้ชนะ</h3>", unsafe_allow_html=True)
 
+st.markdown("<h1 style='color: white;text-shadow: 2px 2px 4px #000000;'>เปิดเพลงเพื่ออรรถรส</h1>", unsafe_allow_html=True)
+st.audio("streamlit/Lil Uzi Vert - The Way Life Goes [Official Visualizer].mp3", format="audio/mp3")
+
+
 left,right = st.columns(2)
 
 # สร้าง sidebar
@@ -29,6 +33,10 @@ st.sidebar.markdown("<h1 style='text-shadow: 2px 2px 8px rgba(0,0,0,0.5);'>Menu<
 
 # สร้างปุ่มเพื่อเปลี่ยนหน้า
 if st.sidebar.button("กติกา"):
+
+    with st.spinner('Wait for it...'):
+        time.sleep(1)
+
     st.markdown("<h1 style='color: white;text-shadow: 2px 2px 4px #000000;'>กติกาการแข่งขันบาสเกตบอล</h1>", unsafe_allow_html=True)
 
     st.markdown("<h2 style='color: white; text-shadow: 2px 2px 4px #000000;'>ผู้เล่น</h2>", unsafe_allow_html=True)
@@ -88,6 +96,10 @@ if st.sidebar.button("กติกา"):
     st.markdown("[อ่านที่นี่](http://www.bsatthai.org/wp-content/uploads/2022/10/%E0%B8%81%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%9A%E0%B8%B2%E0%B8%AA%E0%B9%80%E0%B8%81%E0%B8%95%E0%B8%9A%E0%B8%AD%E0%B8%A5-2022.pdf)")
 
 if st.sidebar.button("NBA"):
+
+    with st.spinner('Wait for it...'):
+        time.sleep(1)
+
     st.markdown("<h1 style='color: white;text-shadow: 2px 2px 4px #000000;'>NBA</h1>", unsafe_allow_html=True)
     st.markdown("<h3 style='color: white;'>เอ็นบีเอ (NBA) ย่อมาจาก National Basketball Association ซึ่งเป็นชื่อของลีกบาสเกตบอลอาชีพในอเมริกาเหนือ ซึ่งรวมประเทศสหรัฐอเมริกาและแคนาดา มีนักกีฬาบาสเก็ตบอลชั้นนำของโลกเล่นอยู่ในเอ็นบีเอนี้เป็นจำนวนมาก ซึ่งทำให้มาตรฐานระดับการแข่งขันนั้นถือว่าอยู่ในระดับสูง สัญลักษณ์ประจำเอ็นบีเอทางด้านขวานั้น เป็นภาพเงาของ เจอร์รี เวสต์ ซึ่งเคยเป็นผู้จัดการทั่วไปของทีมเลเกอร์ส และทีมเมมฟิส กริซลีส์</h3>", unsafe_allow_html=True)
     st.markdown("<h3 style='color: white;'>เอ็นบีเอ ก่อตั้งขึ้นที่นครนิวยอร์ก ในวันที่ 6 มิถุนายน ค.ศ. 1946 ในชื่อ Basketball Association of America (BAA) ซึ่งต่อมาเปลี่ยนชื่อเป็น National Basketball Association ในช่วงฤดูใบไม้ร่วงในปี ค.ศ. 1949 หลังจากการรวมตัวกับทีมจาก National Basketball League (NBL)</h3>", unsafe_allow_html=True)
@@ -102,8 +114,9 @@ st.sidebar.subheader("## ข้อมูลอัพเดตล่าสุด 
 
 
 if st.sidebar.button('ATLANTIC'):
-        #st.markdown("<h1 style='color: red; text-shadow: 2px 2px white;'>Division ATLANTIC</h1>", unsafe_allow_html=True)
-    #tabs = st.columns(5)
+            
+        with st.spinner('Wait for it...'):
+            time.sleep(1)
 
         #with st.container():
             st.markdown("<h1 style='color: red; text-shadow: 2px 2px white;'>Division ATLANTIC</h1>", unsafe_allow_html=True)
@@ -271,6 +284,9 @@ if st.sidebar.button('ATLANTIC'):
 
 if st.sidebar.button('CENTRAL'):
     
+    with st.spinner('Wait for it...'):
+        time.sleep(1)
+
     # Division Central
     st.markdown("<h1 style='color: red; text-shadow: 2px 2px white;'>Division CENTRAL</h1>", unsafe_allow_html=True)
 
@@ -436,6 +452,9 @@ if st.sidebar.button('CENTRAL'):
 
 if st.sidebar.button('SOUTHEAST'):
       
+    with st.spinner('Wait for it...'):
+        time.sleep(1)
+
     # Division SOUTHEAST
     st.markdown("<h1 style='color: red; text-shadow: 2px 2px white;'>Division SOUTHEAST</h1>", unsafe_allow_html=True)
 
@@ -598,6 +617,9 @@ if st.sidebar.button('SOUTHEAST'):
     st.markdown("[ประวัติเต็มๆ](https://www.databet.wiki/%E0%B8%A7%E0%B8%AD%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B8%95%E0%B8%B1%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%8B%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%94%E0%B8%AA%E0%B9%8C/)")
 
 if st.sidebar.button('NORTHWEST'):
+
+    with st.spinner('Wait for it...'):
+        time.sleep(1)
 
     # Division NORTHWEST
     st.markdown("<h1 style='color: red; text-shadow: 2px 2px white;'>Division NORTHWEST</h1>", unsafe_allow_html=True)
@@ -764,3 +786,339 @@ if st.sidebar.button('NORTHWEST'):
     st.markdown("[ประวัติเต็มๆ](https://hmong.in.th/wiki/Utah_Jazz)")
 
 if st.sidebar.button('PACIFIC'):
+    
+    with st.spinner('Wait for it...'):
+        time.sleep(1)
+
+    # Division PACIFIC
+    st.markdown("<h1 style='color: red; text-shadow: 2px 2px white;'>Division PACIFIC</h1>", unsafe_allow_html=True)
+
+    #Golden State Warriors โกลเด้น สเตท วอริเออร์ส
+    st.markdown("<font color='blue'><h2>Golden State Warriors</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='yellow '><p>โกลเด้น สเตท วอริเออร์ส</p></font>", unsafe_allow_html=True)
+
+    #Golden State Warriors png
+    Golden_State_Warriors_png = "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/800px-Golden_State_Warriors_logo.svg.png"
+    st.image(Golden_State_Warriors_png, caption='Golden State Warriors Logo', width=100, use_column_width=True)
+
+    #Golden State Warriors main
+    st.markdown("<p style='color: white;'>รัฐแคริฟอร์เนียนักรบเป็นทีมบาสเกตบอลมืออาชีพชาวอเมริกันที่อยู่ในโอ๊คแลนด์แคลิฟอร์เนีย พวกเขาเป็นสมาชิกของกองแปซิฟิกในการประชุมตะวันตกของสมาคมบาสเกตบอลแห่งชาติ (NBA) ทีมที่ก่อตั้งขึ้นในปี 1946 ในขณะที่ฟิลาเดลนักรบอยู่ในฟิลาเดล, เพนซิลเป็นสมาชิกผู้ก่อตั้งของสมาคมบาสเกตบอลแห่งอเมริกา (BAA) และมันจะเปิด1947 รอบชิงชนะเลิศสนามบินที่ตอนนี้ถือว่าเป็นครั้งแรกที่แชมป์เอ็นบีเอ. ในปี 1962 แฟรนไชส์ย้ายไปอยู่ที่บริเวณอ่าวและถูกเปลี่ยนชื่อเป็นนักรบซานฟรานซิสจนกระทั่งปี1971 เมื่อมันเปลี่ยนชื่อเล่นทางภูมิศาสตร์ในการโกลเด้นรัฐชื่อเล่นของรัฐแคลิฟอร์เนียรัฐ. ตั้งแต่ปี 1972 ศาลที่บ้านของทีมที่ได้รับสนามกีฬา Oracle Arena ในโอกแลนด์นักรบที่ได้รับรางวัลสี่ประชันเอ็นบีเอ พวกเขาส่วนใหญ่เมื่อเร็ว ๆ นี้ได้รับรางวัลการแข่งขันชิงแชมป์เอ็นบีเอโดยการเอาชนะคลีฟแลนด์คาวาเลียใน2015 รอบรองชนะเลิศ</p>", unsafe_allow_html=True)
+    st.markdown("""
+        - **สังกัดในฝั่งตะวันตก** - <font color="white">Pacific Division</font>
+        - **ปีที่ก่อตั้ง** - <font color="white">1946</font>
+        - **ชื่อเดิม** - <font color="white">Philadelphia Warriors (1946-1962), San Francisco Warriors (1962-1971), Golden State Warriors (1971-ปัจจุบัน)</font>
+        - **สถานที่ตั้ง** - <font color="white">เมือง San Francisco รัฐ California</font>
+        - **ชื่อสนามเหย้า** - <font color="white">Chase Center</font>
+        - **เจ้าของทีม** - <font color="white">Joe Lacob</font>
+        - **CEO** - <font color="white">Joe Lacob</font>
+        - **GM (General Manager)** - <font color="white">Bob Myers</font>
+        - **HC (Head Coach)** - <font color="white">Steve Kerr</font>
+        - **ทีมสังกัดใน G-League** - <font color="white">Santa Cruz Warriors</font>
+        - **จำนวนครั้งที่ได้แชมป์ลีก** - <font color="white">6 (1947, 1956, 1975, 2015, 2017, 2018)</font>
+        - **จำนวนครั้งที่ได้แชมป์ฝั่งทวีป** - <font color="white">6 (1975, 2015-2019)</font>
+        - **จำนวนครั้งที่ได้แชมป์ Division** - <font color="white">12 (1948, 1951, 1956, 1964, 1967, 1975, 1976, 2015-2019)</font>
+        - **จำนวนเบอร์เสื้อที่ทำการ Retired** - <font color="white">6 (13, 14, 16, 17, 24, 42)</font>
+        """, unsafe_allow_html=True)
+    
+    #Golden State Warriors link
+    st.markdown("[official website](https://www.nba.com/warriors)")
+    st.markdown("[ประวัติเต็มๆ](https://www.blockdit.com/posts/5ff1a9f91b2c040ce5797f9f?id=5ff1a9f91b2c040ce5797f9f&series=5f97ea813ea0500c89ca96cd)")
+
+
+    #LA Clippers ลอสแอนเจลิส คลิปเปอร์ส
+    st.markdown("<font color='blue'><h2>LA Clippers</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='white '><p>ลอสแอนเจลิส คลิปเปอร์ส</p></font>", unsafe_allow_html=True)
+
+    #LA Clippers png
+    LA_Clippers_png = "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Los_Angeles_Clippers_%282015%29.svg/1280px-Los_Angeles_Clippers_%282015%29.svg.png"
+    st.image(LA_Clippers_png, caption='LA Clippers Logo', width=100, use_column_width=True)
+
+    #LA Clippers main
+    st.markdown("<p style='color: white;'>Los Angeles Clippers เป็นอเมริกันมืออาชีพบาสเกตบอลทีมอยู่ในLos Angeles, California กรรไกรตัดเล็บแข่งขันในสมาคมบาสเกตบอลแห่งชาติ (NBA) เป็นสมาชิกของลีกกองแปซิฟิกของการประชุมตะวันตก กรรไกรตัดเล็บเล่นเกมในบ้านของพวกเขาที่เตเปิลเซ็นเตอร์, เวทีร่วมกับLos Angeles Lakers ของเอ็นบีเอที่ลอสแอนเจลิสปาร์กของสตรีสมาคมบาสเกตบอลแห่งชาติ (ดับเบิลยูเอ็น) และLos Angeles Kings ของสมาคมฮอกกี้แห่งชาติ (NHL) .แฟรนไชส์ก่อตั้งขึ้นในปี 1970 ในขณะที่บัฟฟาโลเบรฟส์หนึ่งในสามของการขยายทีมงานที่จะเข้าร่วมในเอ็นบีเอในปีนั้น เบรฟส์ย้ายจากบัฟฟาโล, นิวยอร์กไปซานดิเอโก, แคลิฟอร์เนียในปี 1978 และกลายเป็นที่รู้จักในฐานะที่ซานดิเอโกกรรไกร ในปี 1984 ย้ายไป Los Angeles Clippers ผ่านของประวัติศาสตร์แฟรนไชส์ไม่เห็นฤดูกาลปกติอย่างมีนัยสำคัญหรือประสบความสำเร็จในรอบรองชนะเลิศ กรรไกรตัดเล็บได้เห็นบ่อยเป็นตัวอย่างของการเป็นผู้แพ้ตลอดกาลในกีฬาอาชีพชาวอเมริกัน, การวาดภาพการเปรียบเทียบที่ไม่เอื้ออำนวยกับ Lakers ที่ประสบความสำเร็จในอดีตที่พวกเขาได้ร่วมกันเป็นตลาดตั้งแต่ปี 1984 และตั้งแต่ปี 1999 ที่เกิดเหตุความมั่งคั่งกรรไกร ‘เปิดในช่วงต้นยุค 2010 ด้วยการซื้อกิจการของผู้เล่นหลักของเบลคกริฟฟิ, DeAndre จอร์แดนและคริสพอ ใน2013, แฟรนไชส์ได้รับรางวัลส่วนแรกเป็นทีมที่ทำให้รอบตัดเชือกเป็นครั้งที่เก้าในประวัติศาสตร์แฟรนไชส์และเป็นครั้งที่สามในก่อนหน้านี้แปดฤดูกาล พวกเขายังเพิ่มให้กับรุ่นของพวกเขาแข่งขันกับLakers ขณะที่พวกเขาจบด้วยดีกว่าสถิติ Lakers เป็นครั้งที่ห้าและได้รับรางวัลซีรีส์ฤดูกาลเป็นครั้งที่สองนับตั้งแต่ย้ายไป Los Angeles ในปี 1984 ในครั้งนี้กวาดพวกเขาซ้ำแล้วซ้ำอีกเป็นฝ่ายชนะใน2014</p>", unsafe_allow_html=True)
+    st.markdown("""
+        - **สังกัดในฝั่งตะวันตก** - <font color="white">Pacific Division</font>
+        - **ปีที่ก่อตั้ง** - <font color="white">1970</font>
+        - **ชื่อเดิม** - <font color="white">Buffalo Braves (1970-1978), San Diego Clippers (1978-1984), Los Angeles Clippers (1984-ปัจจุบัน)</font>
+        - **สถานที่ตั้ง** - <font color="white">เมือง Los Angeles รัฐ California</font>
+        - **ชื่อสนามเหย้า** - <font color="white">Staples Center</font>
+        - **เจ้าของทีม** - <font color="white">Steve Ballmer</font>
+        - **CEO** - <font color="white">Steve Ballmer</font>
+        - **GM (General Manager)** - <font color="white">Michael Winger</font>
+        - **HC (Head Coach)** - <font color="white">Tyronn Lue</font>
+        - **ทีมสังกัดใน G-League** - <font color="white">Agua Caliente Clippers</font>
+        - **จำนวนครั้งที่ได้แชมป์ลีก** - <font color="white">0</font>
+        - **จำนวนครั้งที่ได้แชมป์ฝั่งทวีป** - <font color="white">0</font>
+        - **จำนวนครั้งที่ได้แชมป์ Division** - <font color="white">2 (2013, 2014)</font>
+        - **จำนวนเบอร์เสื้อที่ทำการ Retired** - <font color="white">0</font>
+        """, unsafe_allow_html=True)
+
+    #LA Clippers link
+    st.markdown("[official website](https://www.nba.com/clippers/)")
+    st.markdown("[ประวัติเต็มๆ](https://www.blockdit.com/posts/601417a42a4e911325ca5262?id=601417a42a4e911325ca5262&series=5f97ea813ea0500c89ca96cd)")
+
+
+    #Los Angeles Lakers ลอสแอนเจลิส เลเกอรส์
+    st.markdown("<font color='purple'><h2>Los Angeles Lakers</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='yellow'><p>ลอสแอนเจลิส เลเกอรส์</p></font>", unsafe_allow_html=True)
+
+    #Los Angeles Lakers png
+    Los_Angeles_Lakers_png = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/1920px-Los_Angeles_Lakers_logo.svg.png"
+    st.image(Los_Angeles_Lakers_png, caption='Los Angeles Lakers Logo', width=100, use_column_width=True)
+
+    #Los Angeles Lakers main
+    st.markdown("<p style='color: white;'>ลอสแอนเจลิส เลเกอร์ส เป็นทีมบาสเกตบอลในลีกเอ็นบีเอ ในเมืองลอสแอนเจลิส รัฐแคลิฟอร์เนีย ตามสถิติเมื่อสิ้นสุดฤดูกาล 2004-05 เป็นทีมที่ชนะมากที่สุด (คือ 2,621 เกม) มีเปอร์เซนต์ชนะสูงสุด (61.9%) เล่นในรอบชิงชนะเลิศมากที่สุด (30 ครั้ง) และชนะเลิศในลึกมากเป็นอันดับสอง คือ 16 ครั้ง เป็นรองเพียงทีมบอสตัน เซลติกส์ ซึ่งชนะ 17 ครั้ง นอกจากนี้ยังมีสถิติชนะติดต่อกันมากที่สุดในฤดูกาลคือ 33 เกม</p>", unsafe_allow_html=True)
+    st.markdown("""
+        - **สังกัดในฝั่งตะวันตก** - <font color="white">Pacific Division</font>
+        - **ปีที่ก่อตั้ง** - <font color="white">1947</font>
+        - **ชื่อเดิม** - <font color="white">Minneapolis Lakers (1947-1960), Los Angeles Lakers (1960-ปัจจุบัน)</font>
+        - **สถานที่ตั้ง** - <font color="white">เมือง Los Angeles รัฐ California</font>
+        - **ชื่อสนามเหย้า** - <font color="white">Staples Center</font>
+        - **เจ้าของทีม** - <font color="white">Buss Family Trusts</font>
+        - **CEO** - <font color="white">Jeanie Buss</font>
+        - **GM (General Manager)** - <font color="white">Rob Pelinka</font>
+        - **HC (Head Coach)** - <font color="white">Frank Vogel</font>
+        - **ทีมสังกัดใน G-League** - <font color="white">South Bay Lakers</font>
+        - **จำนวนครั้งที่ได้แชมป์ลีก** - <font color="white">17 (1949, 1950, 1952-1954, 1972, 1980, 1982, 1985, 1987, 1988, 2000-2002, 2009, 2010, 2020)</font>
+        - **จำนวนครั้งที่ได้แชมป์ฝั่งทวีป** - <font color="white">19 (1972, 1973, 1980, 1982-1985, 1987-1989, 1991, 2000-2002, 2004, 2008-2010, 2020)</font>
+        - **จำนวนครั้งที่ได้แชมป์ Division** - <font color="white">33 (1950, 1951, 1953, 1954, 1962, 1963, 1965, 1966, 1969, 1971-1974, 1977, 1980, 1982-1990, 2000, 2001, 2004, 2008-2012, 2020)</font>
+        - **จำนวนเบอร์เสื้อที่ทำการ Retired** - <font color="white">11 (8, 13, 22, 24, 25, 32, 33, 34, 42, 44, 52)</font>
+        """, unsafe_allow_html=True)
+    
+    #Los Angeles Lakers link
+    st.markdown("[official website](https://www.nba.com/lakers/)")
+    st.markdown("[ประวัติเต็มๆ](https://www.blockdit.com/posts/60198127dea5120b93ca418e?id=60198127dea5120b93ca418e&series=5f97ea813ea0500c89ca96cd)")
+
+
+    #Phoenix Suns ฟีนิกซ์ ซันส์
+    st.markdown("<font color='orange'><h2>Phoenix Suns</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='purple '><p>ฟีนิกซ์ ซันส์</p></font>", unsafe_allow_html=True)
+
+    #Phoenix Suns png
+    Phoenix_Suns_png = "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Phoenix_Suns_logo.svg/1024px-Phoenix_Suns_logo.svg.png"
+    st.image(Phoenix_Suns_png, caption='Phoenix Suns Logo', width=100, use_column_width=True)
+
+    #Phoenix Suns main
+    st.markdown("<p style='color: white;'>ฟีนิกซ์ดาวทองเป็นทีมบาสเกตบอลมืออาชีพชาวอเมริกันที่อยู่ในฟินิกซ์ พวกเขาเป็นสมาชิกของกองแปซิฟิกของการประชุมตะวันตกในสมาคมบาสเกตบอลแห่งชาติ(NBA) และเป็นทีมเดียวในส่วนของพวกเขาไม่ได้ที่จะอยู่ในรัฐแคลิฟอร์เนีย ตั้งแต่ปี 1992 ดาวทองมีการเล่นเกมในบ้านของพวกเขาที่Talking Stick รีสอร์ทสนามกีฬาในเมืองฟีนิกซ์ดาวทองเริ่มเล่นเป็นทีมการขยายตัวใน1968 เจ้าของแฟรนไชส์ของเอ็นบีเอสี่ที่ดีที่สุดทุกครั้งชนะร้อยชนะ 55% ของเกมเป็นของปลาย2014-15 ฤดูกาล. ใน 47 ปีของการเล่นที่พวกเขาได้ทำในรอบตัดเชือก 29 ครั้งโพสต์ 19 ของฤดูกาล 50 หรือมากกว่าชนะเก้าเดินทางไปรอบรองชนะเลิศสายตะวันตกและก้าวเข้าสู่รอบชิงชนะเลิศเอ็นบีเอเป็นครั้งที่สองใน1976และ1993 เป็นผลให้ในอัตราร้อยละชนะการสูญเสียทุกครั้งที่พวกเขาเป็นทีมดาวทองที่มีเปอร์เซ็นต์ชนะสูงสุดจะไม่เคยได้รับรางวัลการแข่งขันชิงแชมป์เอ็นบีเอ. ด้วยสมาคมฮอกกี้แห่งชาติ (NHL) ‘s ฟีนิกซ์หมาป่าเปลี่ยนชื่อที่ตั้งทางภูมิศาสตร์ของพวกเขาไปแอริโซนาหมาป่าใน 27 มิถุนายน 2014 (ซึ่งเป็นที่ต้องการเป็นส่วนหนึ่งของใหม่ของพวกเขาArena แม่น้ำก่าสัญญาเช่า), ดาวทองเป็นเพียงคนเดียวที่สำคัญระดับมืออาชีพแฟรนไชส์กีฬาที่อยู่ในรัฐแอริโซนาที่แบรนด์ของตัวเองโดยเฉพาะที่เมืองฟีนิกซ์มากกว่ารัฐที่เป็นทั้ง</p>", unsafe_allow_html=True)
+    st.markdown("""
+        - **สังกัดในฝั่งตะวันตก** - <font color="white">Pacific Division</font>
+        - **ปีที่ก่อตั้ง** - <font color="white">1968</font>
+        - **ชื่อเดิม** - <font color="white">Phoenix Suns (1968-ปัจจุบัน)</font>
+        - **สถานที่ตั้ง** - <font color="white">เมือง Phoenix รัฐ Arizona</font>
+        - **ชื่อสนามเหย้า** - <font color="white">Phoenix Suns Arena</font>
+        - **เจ้าของทีม** - <font color="white">Robert Sarver</font>
+        - **CEO** - <font color="white">Jason Rowley</font>
+        - **GM (General Manager)** - <font color="white">James Jones</font>
+        - **HC (Head Coach)** - <font color="white">Monty Williams</font>
+        - **ทีมสังกัดใน G-League** - <font color="white">ไม่มี</font>
+        - **จำนวนครั้งที่ได้แชมป์ลีก** - <font color="white">0</font>
+        - **จำนวนครั้งที่ได้แชมป์ฝั่งทวีป** - <font color="white">3 (1976, 1993, 2021)</font>
+        - **จำนวนครั้งที่ได้แชมป์ Division** - <font color="white">7 (1981, 1993, 1995, 2005-2007, 2021)</font>
+        - **จำนวนเบอร์เสื้อที่ทำการ Retired** - <font color="white">6 (5, 6, 7, 33, 42, 44)</font>
+        """, unsafe_allow_html=True)
+    
+    #Phoenix Suns link
+    st.markdown("[official website](https://www.nba.com/suns)")
+    st.markdown("[ประวัติเต็มๆ](https://www.blockdit.com/posts/60916d69c509b10c603e1a2e?id=60916d69c509b10c603e1a2e&series=5f97ea813ea0500c89ca96cd)")
+
+
+    #Sacramento Kings ซาคราเมนโต คิงส์
+    st.markdown("<font color='purple'><h2>Sacramento Kings</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='white '><p>ซาคราเมนโต คิงส์</p></font>", unsafe_allow_html=True)
+
+    #Sacramento Kings png
+    Sacramento_Kings_png = "https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/SacramentoKings.svg/800px-SacramentoKings.svg.png"
+    st.image(Sacramento_Kings_png, caption='Sacramento Kings Logo', width=100, use_column_width=True)
+
+    #Sacramento Kings main
+    st.markdown("<p style='color: white;'>ซาคราเมนโตคิงส์เป็นทีมบาสเกตบอลมือชีพอีกทีมหนึ่งที่อยู่ในซาคราเมนโตแคลิฟอร์เนีย The kings แข่งขันในสมาคมบาสเกตบอลแห่งชาติ (NBA) ในฐานะสมาชิกของสายตะวันตกของแปซิฟิก คิงส์เป็นทีมเดียวในกีฬาที่สำคัญเป็นมืออาชีพในทวีปอเมริกาเหนือลีกอยู่ในซาคราเมนโต เล่นกันในอารีน่าคิงส์เป็นแฟรนไซส์ที่เก่าแก่ที่สุดในเอ็นบีเอและเป็นหนึ่งในมืออาชีพที่เก่าแก่ที่สุดพวกเขามาในโรเชสเตอร์, นิวยอร์กเป็นโรเชสเตอร์พระราชวงศ์ในปี1945 และเข้าร่วมในลีกบาสเกตบอลแห่งชาติ พวกเขากระโดดสมาคมบาสเกตบอลแห่งอเมริกาบรรพบุรุษของเอ็นบีเอในปี1948 ในฐานะที่เป็นพระราชวงศ์ทีมที่ประสบความสำเร็จมักจะเป็นในศาลชนะการแข่งขันชิงแชมป์เอ็นบีเอในปี 1951 แต่พวกเขาพบว่ามันยากมากขึ้นที่จะทำกำไรในที่ ตลาดขนาดเล็กเมื่อเทียบกับโรเชสเตอร์และย้ายไปที่ซินซิน, โอไฮโอในปี 1957 กลายเป็นซินซินพระราชวงศ์ ในปี 1972 ทีมที่ย้ายไปอยู่กับแคนซัสซิตีต้นเกมของพวกเขาแยกระหว่างแคนซัสซิตี้และโอมาฮา, เนบราสก้าและการขึ้นชื่อแคนซัสซิตี้กษัตริย์ ทีมอีกครั้งล้มเหลวที่จะพบความสำเร็จในตลาดนั้นและย้ายไปอยู่ที่ซาคราเมนโตในปี 1985</p>", unsafe_allow_html=True)
+    st.markdown("""
+        - **สังกัดในฝั่งตะวันตก** - <font color="white">Pacific Division</font>
+        - **ปีที่ก่อตั้ง** - <font color="white">1923</font>
+        - **ชื่อเดิม** - <font color="white">Rochester Seagrams (1923-1942), Rochester Eber Seagrams (1942-1943), Rochester Pros (1943-1945), Rochester Royals (1945-1957), Cincinnati Royals (1957-1972), Kansas City-Omaha Kings (1972-1975), Kansas City Kings (1975-1985), Sacramento Kings (1985-ปัจจุบัน)</font>
+        - **สถานที่ตั้ง** - <font color="white">เมือง Sacramento รัฐ California</font>
+        - **ชื่อสนามเหย้า** - <font color="white">Golden 1 Center</font>
+        - **เจ้าของทีม** - <font color="white">Vivek Ranadivé</font>
+        - **CEO** - <font color="white">Vivek Ranadivé</font>
+        - **GM (General Manager)** - <font color="white">Monte McNair</font>
+        - **HC (Head Coach)** - <font color="white">Luke Walton</font>
+        - **ทีมสังกัดใน G-League** - <font color="white">Stockton Kings</font>
+        - **จำนวนครั้งที่ได้แชมป์ลีก** - <font color="white">1 (1951)</font>
+        - **จำนวนครั้งที่ได้แชมป์ฝั่งทวีป** - <font color="white">0</font>
+        - **จำนวนครั้งที่ได้แชมป์ Division** - <font color="white">5 (1949, 1952, 1979, 2002, 2003)</font>
+        - **จำนวนเบอร์เสื้อที่ทำการ Retired** - <font color="white">11 (1, 2, 4, 6, 11, 12, 14, 16, 21, 27, 44)</font>
+        """, unsafe_allow_html=True)
+    
+    #Sacramento Kings link
+    st.markdown("[official website](https://www.nba.com/kings/)")
+    st.markdown("[ประวัติเต็มๆ](https://www.blockdit.com/posts/60afb44bf3eb711499db3a26?id=60afb44bf3eb711499db3a26&series=5f97ea813ea0500c89ca96cd)")
+
+if st.sidebar.button('SOUTHWEST'):
+     
+    with st.spinner('Wait for it...'):
+        time.sleep(1)
+
+    #Division SOUTHWEST
+    st.markdown("<h1 style='color: red; text-shadow: 2px 2px white;'>Division SOUTHWEST</h1>", unsafe_allow_html=True)
+
+    #Dallas Mavericks ดัลลัส แมฟเวอริกส์
+    st.markdown("<font color='blue'><h2>Dallas Mavericks</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='white '><p>ดัลลัส แมฟเวอริกส์</p></font>", unsafe_allow_html=True)
+
+    #Dallas Mavericks png
+    Dallas_Mavericks_png = "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Dallas_Mavericks_logo.svg/1024px-Dallas_Mavericks_logo.svg.png"
+    st.image(Dallas_Mavericks_png, caption='Dallas Mavericks Logo', width=100, use_column_width=True)
+
+    #Dallas Mavericks main
+    st.markdown("<p style='color: white;'>ดัลลัส แมฟเวอริกส์เป็นทีมบาสเกตบอลในลีกเอ็นบีเอ ในเมืองดัลลัส รัฐเทกซัส เล่นอยู่ในดิวิชั่นภาคตะวันตกเฉียงใต้ในคอนเฟอเรนส์ตะวันตก เป็นแชมป์ทีมล่าสุดจากฤดูกาล 2010-2011 Dallas Mavericks หลังจากดัลลัสได้ก่อตั้งทีมบาสเก็ตบอลขึ้นในปี 1980 โดยนาย Don Carter เศรษฐีนักธุรกิจชาวฟลอริด้า (เจ้าของคนแรก) ดัลลัส เรดิโอ สื่อวิทยุท้องถิ่นก็ได้จัดประกวดการตั้งฉายาทีม โดยให้ชาวดัลลัสส่งชื่อเข้ามา ซึ่งงานนี้มีชาวดัลลัสส่งชื่อเข้ามากันถึง 4,600 คน และชื่อที่ได้รับคัดเลือกให้เข้ารอบสุดท้ายก็ได้แก่ Wranglers, Express, และ Mavericks โดยชื่อสุดท้ายนั่นมีที่มาจากภาพยนตร์โทรทัศน์ชื่อดังที่พูดถึงตัวละครเอกซึ่งเป็นพี่น้องคาวบอยพเนจรชาวเท็กซัส ที่พกพาการเล่นไพ่ชั้นเซียนออกตะลอนไปทั่วอเมริกานามว่า Bret กับ Bart Maverick ซึ่งหนึ่งในนักแสดงของซีรี่ส์ชุดนี้นั่นคือ เจมส์ การ์เนอร์ อดีตหุ้นส่วนของทีม ดอน คาร์เตอร์เลยถือเป็นเกียรติที่จะได้ใช้ชื่อนี้เป็นฉายาทีม ซึ่งก็เป็นชื่อที่แฟนๆชื่นชอบ เพราะโดยความหมายแล้ว แมฟเวอริคส์ ก็หมายถึงคนที่เป็นอิสระหรือสัตว์ที่มิได้ถูกตีตราซึ่งเป็นความหมายที่ดี</p>", unsafe_allow_html=True)
+    st.markdown("""
+        - **สังกัดในฝั่งตะวันตก** - <font color="white">Southwest Division</font>
+        - **ปีที่ก่อตั้ง** - <font color="white">1980</font>
+        - **ชื่อเดิม** - <font color="white">Dallas Mavericks (1980-ปัจจุบัน)</font>
+        - **สถานที่ตั้ง** - <font color="white">เมือง Dallas รัฐ Texas</font>
+        - **ชื่อสนามเหย้า** - <font color="white">Americans Airlines Center</font>
+        - **เจ้าของทีม** - <font color="white">Mark Cuban</font>
+        - **CEO** - <font color="white">Cynt Marshall</font>
+        - **GM (General Manager)** - <font color="white">Donnie Nelson</font>
+        - **HC (Head Coach)** - <font color="white">Rick Carlisle</font>
+        - **ทีมสังกัดใน G-League** - <font color="white">Texas Legends</font>
+        - **จำนวนครั้งที่ได้แชมป์ลีก** - <font color="white">1 (2011)</font>
+        - **จำนวนครั้งที่ได้แชมป์ฝั่งทวีป** - <font color="white">2 (2006, 2011)</font>
+        - **จำนวนครั้งที่ได้แชมป์ Division** - <font color="white">3 (1987, 2007, 2010)</font>
+        - **จำนวนเบอร์เสื้อที่ทำการ Retired** - <font color="white">3 (12, 15, 22)</font>
+        """, unsafe_allow_html=True)
+    
+    #Dallas Mavericks link
+    st.markdown("[official website](https://www.nba.com/team/1610612742/mavericks)")
+    st.markdown("[ประวัติเต็มๆ](https://www.blockdit.com/posts/5fcb7040d2ff850cb6c03e58?id=5fcb7040d2ff850cb6c03e58&series=5f97ea813ea0500c89ca96cd)")
+
+
+    #Houston Rockets ฮิวสตัน รอกเก็ตส์
+    st.markdown("<font color='red'><h2>Houston Rockets</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='white '><p>ฮิวสตัน รอกเก็ตส์</p></font>", unsafe_allow_html=True)
+
+    #Houston Rockets png
+    Houston_Rockets_png = "https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Houston_Rockets.svg/800px-Houston_Rockets.svg.png"
+    st.image(Houston_Rockets_png, caption='Houston Rockets Logo', width=100, use_column_width=True)
+
+    #Houston Rockets main
+    st.markdown("<p style='color: white;'>ฮิวสตัน รอกเก็ตส์ เป็นทีมบาสเกตบอลในลีกเอ็นบีเอ ในเมืองฮิวสตัน รัฐเท็กซัส เล่นอยู่ในดิวิชั่นภาคตะวันตกเฉียงใต้ในคอนเฟอเรนส์ตะวันตก เดิมทีเล่นอยู่ในเมืองแซนดิเอโก 4 ปี ก่อนย้ายมาที่เมืองฮิวสตัน นอกจากนี้ ฮิวสตัน รอกเก็ตส์ ยังเคยเป็นทีมของ เหยา หมิง นักบาสเกตบอลเอ็นบีเอชาวจีนที่มีชื่อเสียง</p>", unsafe_allow_html=True)
+    st.markdown("""
+        - **สังกัดในฝั่งตะวันตก** - <font color="white">Southwest Division</font>
+        - **ปีที่ก่อตั้ง** - <font color="white">1967</font>
+        - **ชื่อเดิม** - <font color="white">San Diego Rockets (1967-1971), Houston Rockets (1971-ปัจจุบัน)</font>
+        - **สถานที่ตั้ง** - <font color="white">เมือง Houston รัฐ Texas</font>
+        - **ชื่อสนามเหย้า** - <font color="white">Toyota Center</font>
+        - **เจ้าของทีม** - <font color="white">Tilman Fertitta</font>
+        - **CEO** - <font color="white">Tad Brown</font>
+        - **GM (General Manager)** - <font color="white">Rafael Stone</font>
+        - **HC (Head Coach)** - <font color="white">Stephen Silas</font>
+        - **ทีมสังกัดใน G-League** - <font color="white">Rio Grande Valley Vipers</font>
+        - **จำนวนครั้งที่ได้แชมป์ลีก** - <font color="white">2 (1994, 1995)</font>
+        - **จำนวนครั้งที่ได้แชมป์ฝั่งทวีป** - <font color="white">4 (1981, 1986, 1994, 1995)</font>
+        - **จำนวนครั้งที่ได้แชมป์ Division** - <font color="white">8 (1977, 1986, 1993, 1994, 2015, 2018-2020)</font>
+        - **จำนวนเบอร์เสื้อที่ทำการ Retired** - <font color="white">6 (11, 22, 23, 24, 34, 45)</font>
+        """, unsafe_allow_html=True)
+    
+    #Houston Rockets link
+    st.markdown("[official website](https://www.nba.com/rockets)")
+    st.markdown("[ประวัติเต็มๆ](https://www.blockdit.com/posts/5ff87a9935c89e0ee6754b84?id=5ff87a9935c89e0ee6754b84&series=5f97ea813ea0500c89ca96cd)")
+
+
+    #Memphis Grizzlies เมมฟิส กริซลีส์
+    st.markdown("<font color='blue'><h2>Memphis Grizzlies</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='white '><p>เมมฟิส กริซลีส์</p></font>", unsafe_allow_html=True)
+
+    #Memphis Grizzlies png
+    Memphis_Grizzlies_png = "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Memphis_Grizzlies.svg/800px-Memphis_Grizzlies.svg.png"
+    st.image(Memphis_Grizzlies_png, caption='Memphis Grizzlies Logo', width=100, use_column_width=True)
+
+    #Memphis Grizzlies main
+    st.markdown("<p style='color: white;'>เมมฟิสกริซลีเป็นชาวอเมริกันมืออาชีพบาสเกตบอลทีมที่อยู่ในเมมฟิสรัฐเทนเนสซี ริซลี่แข่งขันในสมาคมบาสเกตบอลแห่งชาติ (NBA) เป็นสมาชิกของลีกประชุมตะวันตก ภาคตะวันตกเฉียงใต้กอง ริซลี่เล่นเกมในบ้านของพวกเขาที่FedExForum ทีมที่เป็นเจ้าของโดยโรเบิร์ต Pera ริซลี่ขณะนี้ทีมเดียวในอาชีพหลักอเมริกาเหนือลีกกีฬาในเมืองเมมฟิสและเป็นทีมบาสเกตบอลเพียงมืออาชีพในรัฐเทนเนสซี ทีมแรกที่จัดตั้งขึ้นเป็นแวนคูเวอร์ริซลี่การขยายตัวของทีมที่เข้าร่วมในเอ็นบีเอฤดูกาล 1995-96 หลังจากสิ้นสุดฤดูกาล 2000-01กริซลี่ส์ย้ายไปเมมฟิส</p>", unsafe_allow_html=True)
+    st.markdown("""
+        - **สังกัดในฝั่งตะวันตก** - <font color="white">Southwest Division</font>
+        - **ปีที่ก่อตั้ง** - <font color="white">1995</font>
+        - **ชื่อเดิม** - <font color="white">Vancouver Grizzlies (1995-2001), Memphis Grizzlies (2001-ปัจจุบัน)</font>
+        - **สถานที่ตั้ง** - <font color="white">เมือง Memphis รัฐ Tennessee</font>
+        - **ชื่อสนามเหย้า** - <font color="white">FedExForum</font>
+        - **เจ้าของทีม** - <font color="white">Memphis Basketball, LLC</font>
+        - **CEO** - <font color="white">Jeanie Buss</font>
+        - **GM (General Manager)** - <font color="white">Robert Pera</font>
+        - **HC (Head Coach)** - <font color="white">Taylor Jenkins</font>
+        - **ทีมสังกัดใน G-League** - <font color="white">Memphis Hustle</font>
+        - **จำนวนครั้งที่ได้แชมป์ลีก** - <font color="white">0</font>
+        - **จำนวนครั้งที่ได้แชมป์ฝั่งทวีป** - <font color="white">0</font>
+        - **จำนวนครั้งที่ได้แชมป์ Division** - <font color="white">0</font>
+        - **จำนวนเบอร์เสื้อที่ทำการ Retired** - <font color="white">ไม่มี</font>
+        """, unsafe_allow_html=True)
+
+    #Memphis Grizzlies link
+    st.markdown("[official website](https://www.nba.com/grizzlies/)")
+    st.markdown("[ประวัติเต็มๆ](https://www.blockdit.com/posts/60262b0940b9e70b9d1f6e81?id=60262b0940b9e70b9d1f6e81&series=5f97ea813ea0500c89ca96cd)")
+
+
+    #New Orleans Pelicans นิว ออร์ลีนส์ พิลีแกนส์
+    st.markdown("<font color='yellow'><h2>New Orleans Pelicans</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='blue '><p>นิว ออร์ลีนส์ พิลีแกนส์</p></font>", unsafe_allow_html=True)
+
+    #New Orleans Pelicans png
+    New_Orleans_Pelicans_png = "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/New_Orleans_Pelicans_logo.svg/1920px-New_Orleans_Pelicans_logo.svg.png"
+    st.image(New_Orleans_Pelicans_png, caption='New Orleans Pelicans Logo', width=100, use_column_width=True)
+
+    #New Orleans Pelicans main
+    st.markdown("<p style='color: white;'>New Orleans Pelicans เป็นอเมริกันมืออาชีพบาสเกตบอลทีมที่อยู่ในนิวออร์, หลุยเซีย Orleans เป็นสโมสรสมาชิกของกองตะวันตกเฉียงใต้ของสายตะวันตกในสมาคมบาสเกตบอลแห่งชาติ (NBA) ทีมที่เล่นเกมในบ้านของพวกเขาในสมูทตี้คิงศูนย์ (เดิมชื่อนิวออร์อารีน่า)นกกระยางถูกจัดตั้งขึ้นเป็นนิวออร์ฮอร์เน็ตในฤดูกาล2002-03 เมื่อนั้นเจ้าของลอตต์ฮอร์เน็ต, จอร์จ Shinnย้ายแฟรนไชส์ให้กับนิวออร์ เนื่องจากความเสียหายที่เกิดจากพายุเฮอริเคนแคทรีนาในปี2005 แฟรนไชส์ย้ายชั่วคราวไปโอคลาโฮมาซิตีที่พวกเขาใช้เวลาสองฤดูกาลที่รู้จักกันอย่างเป็นทางการเป็นนิวออร์ / โอคลาโฮมาซิตีฮอร์เน็ต ทีมงานกลับไปนิวออร์เต็มเวลาสำหรับฤดูกาล 2007-08 เมื่อวันที่ 24 มกราคม 2013, แฟรนไชส์ประกาศว่าจะเปลี่ยนชื่อตัวเองนกกระยางได้. การเปลี่ยนแปลงชื่อนกกระยางมีผลหลังจากที่ข้อสรุปของฤดูกาล 2012-13 ชาร์ลอฮอร์เน็ตชื่อประวัติศาสตร์และระเบียนจาก 1988-2002 ถูกส่งกลับไปยังเมืองเดิมที่จะใช้จากนั้นลอตต์บ็อบแคทแฟรนไชส์ซึ่งต่อมากลายเป็นลอตต์ฮอร์เน็ตเริ่มต้นที่ 20 พฤษภาคม 2014 ในฤดูกาลที่ 13 ของการเล่นตั้งแต่แฟรนไชส์เดิมย้ายมาจากแคโรไลนา, แฟรนไชส์หลุยเซียได้ประสบความสำเร็จฤดูกาลปกติโดยรวมของ 498-552 และมีคุณสมบัติในการแข่งขันรอบตัดเชือกหกครั้ง ความสำเร็จของพวกเขารวมถึงชัยชนะท่องเที่ยวแบบหนึ่งและแบ่งหัวข้อหนึ่ง</p>", unsafe_allow_html=True)
+    st.markdown("""
+        - **สังกัดในฝั่งตะวันตก** - <font color="white">Southwest Division</font>
+        - **ปีที่ก่อตั้ง** - <font color="white">2002</font>
+        - **ชื่อเดิม** - <font color="white">New Orleans Hornets (2002-2005, 2007-2013), New Orleans/Oklahoma City Hornets (2005-2007), New Orleans Pelicans (2013-ปัจจุบัน)</font>
+        - **สถานที่ตั้ง** - <font color="white">เมือง New Orleans รัฐ Louisiana</font>
+        - **ชื่อสนามเหย้า** - <font color="white">Smoothie King Center</font>
+        - **เจ้าของทีม** - <font color="white">Gayle Benson</font>
+        - **CEO** - <font color="white">Gayle Benson</font>
+        - **GM (General Manager)** - <font color="white">Trajan Langdon</font>
+        - **HC (Head Coach)** - <font color="white">Stan Van Gundy</font>
+        - **ทีมสังกัดใน G-League** - <font color="white">Erie BayHawks</font>
+        - **จำนวนครั้งที่ได้แชมป์ลีก** - <font color="white">0</font>
+        - **จำนวนครั้งที่ได้แชมป์ฝั่งทวีป** - <font color="white">0</font>
+        - **จำนวนครั้งที่ได้แชมป์ Division** - <font color="white">1 (2008)</font>
+        - **จำนวนเบอร์เสื้อที่ทำการ Retired** - <font color="white">1 (7)</font>
+        """, unsafe_allow_html=True)
+    
+    #New Orleans Pelicans link
+    st.markdown("[official website](https://www.nba.com/pelicans/)")
+    st.markdown("[ประวัติเต็มๆ](https://www.blockdit.com/posts/6060888b02d45e0c44e8914f?id=6060888b02d45e0c44e8914f&series=5f97ea813ea0500c89ca96cd)")
+
+
+    #San Antonio Spurs ซานแอนโตนิโอ สเปอรส์
+    st.markdown("<font color='black'><h2>San Antonio Spurs</h2></font>", unsafe_allow_html=True)
+    st.markdown("<font color='white '><p>ซานแอนโตนิโอ สเปอรส์</p></font>", unsafe_allow_html=True)
+
+    #San Antonio Spurs png
+    San_Antonio_Spurs_png = "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/San_Antonio_Spurs.svg/1920px-San_Antonio_Spurs.svg.png"
+    st.image(San_Antonio_Spurs_png, caption='San Antonio Spurs Logo', width=100, use_column_width=True)
+
+    #San Antonio Spurs main
+    st.markdown("<p style='color: white;'>แซน แอนโตนิโอ สเปอร์ส (อังกฤษ: San Antonio Spurs) เป็นทีมบาสเกตบอลอาชีพในลีกเอ็นบีเอของสหรัฐอเมริกา อยู่เมืองแซน แอนโตนิโอ รัฐเท็กซัสก่อตั้งขึ้นเมื่อปี พ.ศ. 2510 (ค.ศ. 1967) เดิมอยู่ลีกเอบีเอ สเปอร์สเป็นทีมเดียวที่มาจากเอบีเอที่เคยได้แชมป์เอ็นบีเอ โดยได้แชมป์ทั้งหมด 4 สมัย และเมื่อนับสถิติการเล่นจากอดีตจนถึงพฤศจิกายน พ.ศ. 2549 สเปอร์สมีสถิติเปอร์เซนต์ชนะสูงเป็นอันดับที่สองรองจากทีม ลอส แอนเจลิส เลเกอร์ส และพลาดการเล่นเพลย์ออฟเพียงสี่ฤดูกาลเท่านั้น</p>", unsafe_allow_html=True)
+    st.markdown(""" 
+        - **การประชุม** - <font color="white">ตะวันตก</font>
+        - **แผนก** - <font color="white">ตะวันตกเฉียงใต้</font>
+        - **ก่อตั้งขึ้น** - <font color="white">พ.ศ. 2510</font>
+        - **ประวัติศาสตร์** - <font color="white">Dallas Chaparrals 1967–1970, 1971–1973 (ABA) Texas Chaparrals 1970–1971 (ABA) San Antonio Spurs 1973–1976 (ABA) 1976 - ปัจจุบัน (NBA)</font>
+        - **อารีน่า** - <font color="white">ศูนย์ AT&T</font>
+        - **สถานที่** - <font color="white">ซานอันโตนิโอเท็กซัส</font>
+        - **สีของทีม** - <font color="white">ดำเงิน</font>
+        - **ผู้สนับสนุนหลัก** - <font color="white">ฟรอสต์แบงก์</font>
+        - **ประธาน** - <font color="white">Gregg Popovich</font>
+        - **ผู้จัดการทั่วไป** - <font color="white">ไบรอันไรท์</font>
+        - **หัวหน้าโค้ช** - <font color="white">Gregg Popovich</font>
+        - **กรรมสิทธิ์** - <font color="white">Spurs Sports & Entertainment (ปีเตอร์จอห์นโฮลท์ประธานและซีอีโอ)</font>
+        - **สังกัด** - <font color="white">ออสตินสเปอร์ส</font>
+        - **ประชัน** - <font color="white">5 ( 2542 , 2546 , 2548 , 2550 , 2557 )</font>
+        - **ชื่อการประชุม** - <font color="white">6 ( 2542 , 2546 , 2548 , 2550 , 2556 , 2557 )</font>
+        - **ชื่อกอง** - <font color="white">22 ( 2521 , 2522 , 2524 , 2525 , 2526 , 2533 , 2534 , 2538 , 2539 , 2542 , 2544 , 2545 , 2546 , 2548 , 2549 , 2552 , 2554 , 2555 , 2556 , 2557 , 2559 , 2560 )</font>
+        - **หมายเลขเกษียณ** - <font color="white">10 ( 00 , 6 , 9 , 12 , 13 , 20 , 21 , 32 , 44 , 50 )</font>
+        """, unsafe_allow_html=True)
+    
+    #San Antonio Spurs link
+    st.markdown("[official website](https://www.nba.com/spurs/)")
+    st.markdown("[ประวัติเต็มๆ](https://hmong.in.th/wiki/San_Antonio_Spurs)")
+
